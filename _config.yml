@@ -22,10 +22,10 @@ repository               : "Eurus-W/Eurus-W.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "whq.png"
+  avatar           : "whq.jpg"
   name             : "About me"
   pronouns         : # example: "she/her"  
-  bio              : &description
+  bio              : "A third-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) "
   location         : "Shanghai, China"
   employer         : "Shanghai University of Finance and Economics"
   uri              : # URL
