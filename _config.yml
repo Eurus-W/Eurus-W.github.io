@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Hanqing Wang"
+title                    : "Hanqing Wang / Homepage"
 title_separator          : "-"
 name                     : &name "Hanqing Wang"
 description              : &description "A third-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) "
