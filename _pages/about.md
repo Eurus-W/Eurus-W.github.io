@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student at Shanghai University of Finance and Economics (SUFE), specializing in large language models and parameter-efficient fine-tuning. My advisor is Prof. [Yun Chen](yunc.me). I obtained my bachelor's degree from SUFE in 2022. From September 2023 to January 2025, I worked as a research intern at THUNLP & QY Lab, under the supervision of [Shuo Wang](https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en). I have published several papers in top conferences such as ACL, EMNLP, NAACL and NeurIPS.
+I am a third-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) advised by Prof. [Yun Chen](yunc.me), specializing in large language models and parameter-efficient fine-tuning. I obtained my bachelor's degree from SUFE in 2022. From September 2023 to January 2025, I worked as a research intern at THUNLP & QY Lab, under the supervision of [Shuo Wang](https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en). I have published several papers in top conferences such as ACL, EMNLP, NAACL and NeurIPS.
 
-A data-driven personal website
+Selected Publications
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
