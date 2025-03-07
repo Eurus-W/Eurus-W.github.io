@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2023_style_bart
 excerpt: 'Author: <b>Hanqing Wang</b><sup>*</sup>, Yajing Luo<sup>*</sup>, Boya Xiong, Guanhua Chen, Yun Chen'
-date: 2023-01-28
+date: 2023-06-20
 venue: 'Findings of EMNLP 2023'
 paperurl: 'https://eurus-w.github.io/files/2023.findings-emnlp.697.pdf'
 ---
