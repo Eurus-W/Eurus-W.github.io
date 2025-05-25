@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/machine-learning
 venue: "SUFE, SIME"
-date: 2022-2024
+date: 2024-09-02
 location: "Shanghai, China"
 ---
 
