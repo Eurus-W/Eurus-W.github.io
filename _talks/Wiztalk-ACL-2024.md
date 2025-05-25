@@ -3,11 +3,9 @@ title: "Wiztalk: ACL 2024 Paper Sharing Session"
 collection: talks
 type: "Tutorial"
 permalink: /talks/Wiztalk-ACL-2024
-venue: "UC-Berkeley Institute for Testing Science"
+venue: "Wiztalk"
 date: 2024-08-06
 location: "Online, China"
 ---
 
-[More information here](http://exampleurl.com)
-
-This is a description of your tutorial, note the different field in type. This is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+I presented our paper, "LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks," at the Wiztalk: ACL 2024 Paper Sharing Session.
