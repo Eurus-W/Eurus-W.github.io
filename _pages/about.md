@@ -15,19 +15,19 @@ Selected Publications
 
 [1] MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning  
 Hanqing Wang, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen. *NAACL 2024*  
-[Paper](https://aclanthology.org/2025.naacl-long.248/)  [Code](https://github.com/sufenlp/MiLoRA)
+[[Paper](https://aclanthology.org/2025.naacl-long.248/)]  [[Code](https://github.com/sufenlp/MiLoRA)]
 
 [2] Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models  
 Bowen Ping, Shuo Wang, Hanqing Wang, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun. *NeurIPS 2024*  
-[Paper](https://openreview.net/pdf?id=cr5EQRJlRn)  [Code](https://github.com/thunlp/Delta-CoMe)
+[[Paper](https://openreview.net/pdf?id=cr5EQRJlRn)]  [[Code](https://github.com/thunlp/Delta-CoMe)]
 
 [3] LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks  
 Hanqing Wang, Bowen Ping, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, Maosong Sun. *ACL 2024*  
-[Paper](https://aclanthology.org/2024.acl-long.695/)  [Code](https://github.com/thunlp/LoRAFlow)
+[[Paper](https://aclanthology.org/2024.acl-long.695/)]  [[Code](https://github.com/thunlp/LoRAFlow)]
 
 [4] StyleBART: Decorate Pretrained Model with Style Adapters for Unsupervised Stylistic Headline Generation  
 Hanqing Wang, Yajing Luo, Boya Xiong, Guanhua Chen, Yun Chen. *Findings of EMNLP 2023*  
-[Paper](https://aclanthology.org/2023.findings-emnlp.697/)  [Code](https://github.com/sufenlp/StyleBART)
+[[Paper](https://aclanthology.org/2023.findings-emnlp.697/)]  [[Code](https://github.com/sufenlp/StyleBART)]
 
 
 <!-- Getting started
