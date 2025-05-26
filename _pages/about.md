@@ -14,7 +14,7 @@ Selected Publications
 
 
 [1] MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning  
-Hanqing Wang, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen. *NAACL 2024*  
+**Hanqing Wang**, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen. *NAACL 2024*  
 [[Paper](https://aclanthology.org/2025.naacl-long.248/)]  [[Code](https://github.com/sufenlp/MiLoRA)]
 
 [2] Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models  
