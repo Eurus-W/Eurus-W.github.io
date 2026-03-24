@@ -23,7 +23,7 @@ repository               : "Eurus-W/Eurus-W.github.io"
 author:
   # Biographic information
   avatar           : "whq.jpg"
-  name             : "About me"
+  name             : "Hanqing Wang"
   pronouns         : # example: "she/her"  
   bio              : "A third-year Ph.D. student at Shanghai University of Finance and Economics (SUFE) "
   location         : "Shanghai, China"
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/Eurus-W"
+  github           : "Eurus-W"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

@@ -1,0 +1,433 @@
+/* ==========================================================================
+   CUSTOM ACADEMIC HOMEPAGE STYLES
+   ========================================================================== */
+
+/*
+   Research Interests Cards
+   ========================================================================== */
+
+.research-interests {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2rem;
+}
+
+.research-card {
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 1.2rem 0.8rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  background: var(--global-bg-color);
+  transition: all 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    border-color: var(--global-link-color);
+  }
+
+  i {
+    font-size: 1.8rem;
+    color: var(--global-link-color);
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+}
+
+/*
+   News Section
+   ========================================================================== */
+
+.news-section {
+  max-height: 220px;
+  overflow-y: auto;
+  margin: 1rem 0;
+  padding-right: 0.5rem;
+
+  /* Custom scrollbar */
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--global-border-color);
+    border-radius: 2px;
+  }
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 0.92rem;
+    line-height: 1.5;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.news-date {
+  font-weight: 700;
+  color: var(--global-link-color);
+  min-width: 90px;
+  display: inline-block;
+}
+
+/*
+   Publication Cards
+   ========================================================================== */
+
+.pub-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-badge {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  min-width: 72px;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 3px;
+  letter-spacing: 0.02em;
+}
+
+.pub-badge-acl       { background-color: #2980b9; }
+.pub-badge-neurips   { background-color: #c0392b; }
+.pub-badge-naacl     { background-color: #8e44ad; }
+.pub-badge-emnlp     { background-color: #27ae60; }
+.pub-badge-iclr      { background-color: #e67e22; }
+.pub-badge-icml      { background-color: #16a085; }
+
+.pub-content {
+  flex: 1;
+
+  .pub-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+    line-height: 1.4;
+  }
+
+  .pub-authors {
+    font-size: 0.88rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.25rem;
+    display: block;
+    line-height: 1.4;
+  }
+
+  .pub-links {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+
+    a {
+      text-decoration: none;
+      color: var(--global-link-color);
+      margin-right: 0.6rem;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/*
+   Staggered Fade-in Animations
+   ========================================================================== */
+
+.research-card {
+  animation: intro 0.4s both;
+
+  &:nth-child(1) { animation-delay: 0.4s; }
+  &:nth-child(2) { animation-delay: 0.5s; }
+  &:nth-child(3) { animation-delay: 0.6s; }
+}
+
+.pub-entry {
+  animation: intro 0.4s both;
+
+  &:nth-child(1) { animation-delay: 0.45s; }
+  &:nth-child(2) { animation-delay: 0.55s; }
+  &:nth-child(3) { animation-delay: 0.65s; }
+  &:nth-child(4) { animation-delay: 0.75s; }
+}
+
+.news-list li {
+  animation: intro 0.3s both;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) { animation-delay: 0.35s + ($i * 0.05s); }
+  }
+}
+
+/*
+   Project Cards (for Projects page)
+   ========================================================================== */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.project-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: var(--global-bg-color);
+  transition: all 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    border-color: var(--global-link-color);
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+
+    a {
+      text-decoration: none;
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-link-color);
+      }
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .project-links {
+    font-size: 0.85rem;
+
+    a {
+      text-decoration: none;
+      color: var(--global-link-color);
+      margin-right: 0.8rem;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .project-tags {
+    margin-top: 0.6rem;
+
+    span {
+      display: inline-block;
+      font-size: 0.72rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      background: var(--global-border-color);
+      color: var(--global-text-color);
+      margin-right: 0.4rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+}
+
+/*
+   CV Page Styles
+   ========================================================================== */
+
+.cv-download {
+  margin-bottom: 2rem;
+
+  .btn--primary {
+    background-color: var(--global-link-color);
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.2s ease;
+
+    &:hover {
+      filter: brightness(1.15);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    i {
+      margin-right: 0.4rem;
+    }
+  }
+}
+
+.cv-entry {
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+
+  ul {
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+
+    li {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--global-text-color);
+    }
+  }
+}
+
+.cv-entry-header {
+  margin-bottom: 0.3rem;
+}
+
+.cv-entry-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--global-text-color);
+}
+
+.cv-entry-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.cv-entry-role {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+
+.cv-entry-date {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.cv-awards {
+  table {
+    width: 100%;
+    font-size: 0.92rem;
+
+    th {
+      text-align: left;
+      border-bottom: 2px solid var(--global-link-color);
+      padding: 0.5rem 0.8rem;
+      font-weight: 700;
+    }
+
+    td {
+      padding: 0.5rem 0.8rem;
+      border-bottom: 1px solid var(--global-border-color);
+    }
+
+    td:last-child {
+      white-space: nowrap;
+      color: var(--global-text-color-light);
+      text-align: right;
+    }
+  }
+}
+
+/*
+   Dark Mode Theme Variables
+   ========================================================================== */
+
+[data-theme="dark"] {
+  --global-base-color                 : #1a1a2e;
+  --global-bg-color                   : #1a1a2e;
+  --global-border-color               : #2d2d44;
+  --global-code-background-color      : #16213e;
+  --global-code-text-color            : #c9d1d9;
+  --global-fig-caption-color          : #8b949e;
+  --global-link-color                 : #6ea8d9;
+  --global-link-color-hover           : #8bbce3;
+  --global-link-color-visited         : #5a96c7;
+  --global-masthead-link-color        : #e6edf3;
+  --global-masthead-link-color-hover  : #8b949e;
+  --global-text-color                 : #e6edf3;
+  --global-text-color-light           : #8b949e;
+  --global-thead-color                : #2d2d44;
+
+  img {
+    filter: brightness(0.9);
+  }
+}
+
+/*
+   Dark Mode Toggle Button
+   ========================================================================== */
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem;
+  margin-left: 0.8rem;
+  color: var(--global-masthead-link-color);
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+  vertical-align: middle;
+
+  &:hover {
+    color: var(--global-link-color);
+  }
+
+  .fa-sun {
+    display: none;
+  }
+
+  .fa-moon {
+    display: inline;
+  }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .fa-sun {
+    display: inline;
+  }
+  .fa-moon {
+    display: none;
+  }
+}
