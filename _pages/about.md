@@ -30,16 +30,16 @@ I am a third-year Ph.D. student at Shanghai University of Finance and Economics 
 
 <div class="news-section">
   <ul class="news-list">
-    <li><span class="news-date">[Dec 2025]</span> Awarded <b>"Academic Star"</b> (Top 1% / Highest Honor) at SUFE!</li>
-    <li><span class="news-date">[Sep 2025]</span> Awarded <b>National Academic Scholarship</b>!</li>
-    <li><span class="news-date">[Mar 2025]</span> One paper accepted at <b>NAACL 2025</b>!</li>
-    <li><span class="news-date">[Jan 2025]</span> Completed research internship at THUNLP & QY Lab.</li>
-    <li><span class="news-date">[Sep 2024]</span> Awarded <b>First-Class Academic Scholarship</b> at SUFE.</li>
-    <li><span class="news-date">[Sep 2024]</span> One paper accepted at <b>NeurIPS 2024</b>!</li>
-    <li><span class="news-date">[May 2024]</span> One paper accepted at <b>ACL 2024</b>!</li>
-    <li><span class="news-date">[Sep 2023]</span> Started research internship at THUNLP & QY Lab.</li>
-    <li><span class="news-date">[Oct 2023]</span> One paper accepted at <b>Findings of EMNLP 2023</b>!</li>
-    <li><span class="news-date">[Jun 2022]</span> Obtained bachelor's degree from SUFE.</li>
+    <li><span class="news-date">Dec 2025</span><span class="news-dot"></span><span class="news-text">Awarded <b>"Academic Star"</b> (Top 1% / Highest Honor) at SUFE!</span></li>
+    <li><span class="news-date">Sep 2025</span><span class="news-dot"></span><span class="news-text">Awarded <b>National Academic Scholarship</b>!</span></li>
+    <li><span class="news-date">Mar 2025</span><span class="news-dot"></span><span class="news-text">One paper accepted at <b>NAACL 2025</b>!</span></li>
+    <li><span class="news-date">Jan 2025</span><span class="news-dot"></span><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
+    <li><span class="news-date">Sep 2024</span><span class="news-dot"></span><span class="news-text">Awarded <b>First-Class Academic Scholarship</b> at SUFE.</span></li>
+    <li><span class="news-date">Sep 2024</span><span class="news-dot"></span><span class="news-text">One paper accepted at <b>NeurIPS 2024</b>!</span></li>
+    <li><span class="news-date">May 2024</span><span class="news-dot"></span><span class="news-text">One paper accepted at <b>ACL 2024</b>!</span></li>
+    <li><span class="news-date">Sep 2023</span><span class="news-dot"></span><span class="news-text">Started research internship at THUNLP & QY Lab.</span></li>
+    <li><span class="news-date">Oct 2023</span><span class="news-dot"></span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2023</b>!</span></li>
+    <li><span class="news-date">Jun 2022</span><span class="news-dot"></span><span class="news-text">Obtained bachelor's degree from SUFE.</span></li>
   </ul>
 </div>
 
