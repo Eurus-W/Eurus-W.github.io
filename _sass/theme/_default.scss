@@ -29,17 +29,26 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-border-color               : #{$lighter-gray};
-    --global-code-background-color      : #fafafa;
+    --global-bg-color                   : #f8f9fc;
+    --global-bg-gradient                : linear-gradient(135deg, #f8f9fc 0%, #eef1f8 100%);
+    --global-border-color               : rgba(99, 102, 241, 0.10);
+    --global-code-background-color      : #f4f2ff;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
     --global-link-color                 : #4f46e5;
     --global-link-color-hover           : #3730a3;
-    --global-link-color-visited         : #6366f1;  
+    --global-link-color-visited         : #6366f1;
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+
+    /* Premium surface system */
+    --global-surface-color              : rgba(255, 255, 255, 0.7);
+    --global-surface-border             : rgba(99, 102, 241, 0.08);
+    --global-surface-shadow             : 0 1px 3px rgba(79, 70, 229, 0.04), 0 4px 16px rgba(79, 70, 229, 0.03);
+    --global-surface-shadow-hover       : 0 4px 20px rgba(79, 70, 229, 0.10), 0 8px 32px rgba(79, 70, 229, 0.06);
+    --global-accent-secondary           : #d97706;
+    --global-accent-gradient            : linear-gradient(135deg, #4f46e5, #7c3aed);
 }
