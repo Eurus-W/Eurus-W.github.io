@@ -26,29 +26,29 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
+/* Default light theme for the site — warm elegant palette */
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #f8f9fc;
-    --global-bg-gradient                : linear-gradient(135deg, #f8f9fc 0%, #eef1f8 100%);
-    --global-border-color               : rgba(99, 102, 241, 0.10);
-    --global-code-background-color      : #f4f2ff;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #4f46e5;
-    --global-link-color-hover           : #3730a3;
-    --global-link-color-visited         : #6366f1;
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-base-color                 : #8b7355;
+    --global-bg-color                   : #faf8f5;
+    --global-bg-gradient                : linear-gradient(135deg, #faf8f5 0%, #f0ebe3 100%);
+    --global-border-color               : #e8e0d4;
+    --global-code-background-color      : #f5f0e8;
+    --global-code-text-color            : #4a3728;
+    --global-fig-caption-color          : #8b7355;
+    --global-link-color                 : #c0785c;
+    --global-link-color-hover           : #a8624a;
+    --global-link-color-visited         : #b0704f;
+    --global-masthead-link-color        : #2c1810;
+    --global-masthead-link-color-hover  : #c0785c;
+    --global-text-color                 : #4a3728;
+    --global-text-color-light           : #8b7355;
+    --global-thead-color                : #f0ebe3;
 
-    /* Premium surface system */
-    --global-surface-color              : rgba(255, 255, 255, 0.7);
-    --global-surface-border             : rgba(99, 102, 241, 0.08);
-    --global-surface-shadow             : 0 1px 3px rgba(79, 70, 229, 0.04), 0 4px 16px rgba(79, 70, 229, 0.03);
-    --global-surface-shadow-hover       : 0 4px 20px rgba(79, 70, 229, 0.10), 0 8px 32px rgba(79, 70, 229, 0.06);
-    --global-accent-secondary           : #d97706;
-    --global-accent-gradient            : linear-gradient(135deg, #4f46e5, #7c3aed);
+    /* Premium surface system — warm */
+    --global-surface-color              : rgba(255, 255, 255, 0.85);
+    --global-surface-border             : #e8e0d4;
+    --global-surface-shadow             : 0 1px 3px rgba(74, 55, 40, 0.04), 0 4px 16px rgba(74, 55, 40, 0.03);
+    --global-surface-shadow-hover       : 0 4px 20px rgba(192, 120, 92, 0.10), 0 8px 32px rgba(74, 55, 40, 0.06);
+    --global-accent-secondary           : #c0785c;
+    --global-accent-gradient            : linear-gradient(135deg, #c0785c, #d4a574);
 }
