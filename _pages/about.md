@@ -15,7 +15,7 @@ redirect_from:
   <div class="hero-info">
     <h1 class="hero-name">Hanqing Wang</h1>
     <p class="hero-title">Ph.D. Student at Shanghai University of Finance and Economics (SUFE)</p>
-    <p class="hero-bio">I am a third-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, specializing in large language models and parameter-efficient fine-tuning. I obtained my bachelor's degree from SUFE in 2022. From September 2023 to January 2025, I worked as a research intern at THUNLP & QY Lab, under the supervision of <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. I have published several papers in top conferences such as ACL, EMNLP, NAACL and NeurIPS.</p>
+    <p class="hero-bio">I am a fourth-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, specializing in large language models and parameter-efficient fine-tuning. I obtained my bachelor's degree from SUFE in 2022. From September 2023 to January 2025, I worked as a research intern at THUNLP & QY Lab, under the supervision of <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. I have published several papers in top conferences such as ACL, EMNLP, NAACL and NeurIPS.</p>
     <div class="hero-links">
       <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
@@ -47,7 +47,7 @@ redirect_from:
     <div class="section-label">News</div>
     <div class="news-section">
       <ul class="news-list">
-        <li><span class="news-date">Dec 2025</span><span class="news-text">Awarded <b>"Academic Star"</b> (Top 1% / Highest Honor) at SUFE!</span></li>
+        <li><span class="news-date">Dec 2025</span><span class="news-text">Awarded <b>"Academic Star"</b> (5 recipients/year university-wide, Highest Honor) at SUFE!</span></li>
         <li><span class="news-date">Sep 2025</span><span class="news-text">Awarded <b>National Academic Scholarship</b>!</span></li>
         <li><span class="news-date">Mar 2025</span><span class="news-text">One paper accepted at <b>NAACL 2025</b>!</span></li>
         <li><span class="news-date">Jan 2025</span><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>

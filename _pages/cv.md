@@ -42,13 +42,16 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
 ## Selected Research Experience
 
 <div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="cv-entry-title">Tsinghua University NLP Lab (THUNLP) & QY Lab, China</span>
+  </div>
   <div class="cv-entry-item">
-    <span class="cv-entry-role">[Research Intern Position]</span>
-    <span class="cv-entry-date">[Start Date] – [End Date]</span>
+    <span class="cv-entry-role">Research Intern</span>
+    <span class="cv-entry-date">Sep. 2023 – Jan. 2025</span>
   </div>
   <ul>
-    <li><b>Objective:</b> [Research direction and specific problem addressed]</li>
-    <li><b>Action & Result:</b> [Core tech stack used and outcomes achieved]</li>
+    <li><b>Objective:</b> Research on parameter-efficient fine-tuning and model compression for large language models, supervised by Shuo Wang.</li>
+    <li><b>Results:</b> Led LoRA-Flow (ACL 2024), a dynamic LoRA fusion mechanism for generative tasks; collaborated on Delta-CoMe (NeurIPS 2024), training-free delta compression with mixed-precision for LLMs.</li>
   </ul>
 </div>
 
@@ -59,8 +62,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
   </div>
   <ul>
     <li><b>Status:</b> In Submission to EMNLP 2025</li>
-    <li><b>Method & Result:</b> Proposed a novel approach utilizing Pivot Programming Languages to enhance Text-to-SQL generation. [Specific improvements and datasets to be added]</li>
-    <li><b>Links:</b> [Paper] | [Code]</li>
+    <li><b>Method & Result:</b> Proposed using pivot programming languages (e.g., Python) as an intermediate representation to provide fine-grained structural guidance for Text-to-SQL generation.</li>
   </ul>
 </div>
 
@@ -71,7 +73,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
   </div>
   <ul>
     <li><b>Status:</b> Accepted to NAACL 2025</li>
-    <li><b>Method & Result:</b> Explored minor singular components for parameter-efficient LLM finetuning, improving upon existing low-rank adaptation methods. [Specific advantages to be added]</li>
+    <li><b>Method & Result:</b> Proposed initializing LoRA adapters with minor (rather than dominant) singular components of pre-trained weight matrices, reducing interference with existing knowledge while enabling more effective task-specific adaptation.</li>
     <li><b>Links:</b> <a href="https://aclanthology.org/2025.naacl-long.248/">[Paper]</a> | <a href="https://github.com/sufenlp/MiLoRA">[Code]</a></li>
   </ul>
 </div>
@@ -83,7 +85,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
   </div>
   <ul>
     <li><b>Status:</b> Accepted to ACL 2024</li>
-    <li><b>Method & Result:</b> Designed a dynamic LoRA fusion mechanism for generative tasks. [Specific metrics to be added]</li>
+    <li><b>Method & Result:</b> Designed a dynamic gating mechanism that automatically determines token-level fusion weights across multiple LoRA modules during inference, enabling more flexible multi-task generalization.</li>
     <li><b>Links:</b> <a href="https://aclanthology.org/2024.acl-long.695/">[Paper]</a> | <a href="https://github.com/thunlp/LoRAFlow">[Code]</a></li>
   </ul>
 </div>
@@ -117,13 +119,20 @@ Weikang Wang, Guanhua Chen, **Hanqing Wang**, Yue Han, Yun Chen. *Findings of EM
 
 ## Honors & Awards
 
-<div class="cv-awards">
+<div class="cv-awards" markdown="1">
 
-| Award | Time |
+**Ph.D. Student (2022–Present)**
+
+| Award | Year |
 |-------|------|
-| **"Academic Star"** (Top 1% / Highest Honor), SUFE | Dec. 2025 |
-| **National Academic Scholarship** | Sep. 2025 |
+| **"Academic Star"** — Highest honor at SUFE; 5 graduate students selected per year university-wide | Dec. 2025 |
+| **National PhD Scholarship** — Awarded to ~3% of PhD students by the Ministry of Education, China | Sep. 2025 |
 | **First-Class Academic Scholarship**, SUFE | Sep. 2024 |
+
+**Undergraduate (2018–2022)**
+
+| Award | Year |
+|-------|------|
 | **Outstanding Graduate**, SUFE | Jun. 2022 |
 | **Honorary Bachelor**, SUFE | Jun. 2022 |
 | **First Prize**, Chinese Undergraduate Computer Design Competition | Aug. 2021 |
