@@ -6,6 +6,21 @@ author_profile: true
 
 <div class="project-grid">
 
+
+  <div class="project-card">
+    <h3><a href="https://github.com/sustech-nlp/Pi-SQL">Pi-SQL</a></h3>
+    <p>Proposed using pivot programming languages (e.g., Python) as an intermediate representation to provide fine-grained structural guidance for Text-to-SQL generation.</p>
+    <div class="project-tags">
+      <span>LoRA</span>
+      <span>LLM</span>
+      <span>PEFT</span>
+    </div>
+    <div class="project-links">
+      <a href="https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf/">[Paper]</a>
+      <a href="https://github.com/sustech-nlp/Pi-SQL">[Code]</a>
+    </div>
+  </div>
+
   <div class="project-card">
     <h3><a href="https://github.com/sufenlp/MiLoRA">MiLoRA</a></h3>
     <p>Harnessing minor singular components for parameter-efficient LLM finetuning. A novel approach that leverages underutilized singular components to improve LoRA-based fine-tuning.</p>

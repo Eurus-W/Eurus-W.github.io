@@ -63,6 +63,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
   <ul>
     <li><b>Status:</b> Accepted to Findings of EMNLP 2025</li>
     <li><b>Method & Result:</b> Proposed using pivot programming languages (e.g., Python) as an intermediate representation to provide fine-grained structural guidance for Text-to-SQL generation.</li>
+    <li><b>Links:</b> <a href="https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf/">[Paper]</a> | <a href="https://github.com/sustech-nlp/Pi-SQL">[Code]</a></li>
   </ul>
 </div>
 
@@ -94,6 +95,8 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 
 **[1] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
 Yongdong Chi\*, **Hanqing Wang**\*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen. *Findings of EMNLP 2025*
+\[[Paper](https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf/)\]\[[Code](https://github.com/sustech-nlp/Pi-SQL)\]
+
 
 **[2] MALoRA: Mixture of Asymmetric Low-Rank Adaptation for Enhanced Multi-Task Learning**
 Xujia Wang, Haiyan Zhao, Shuo Wang, **Hanqing Wang**, Zhiyuan Liu. *Findings of NAACL 2025*
