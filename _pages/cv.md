@@ -32,7 +32,7 @@ redirect_from:
 
 ## Research Interests
 
-Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent Applications
+Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 
 ## Technical Skills
 
@@ -57,11 +57,11 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
 
 <div class="cv-entry">
   <div class="cv-entry-item">
-    <span class="cv-entry-role">Enhancing Text-to-SQL with Fine-Grained Guidance (Pi-SQL)</span>
-    <span class="cv-entry-date">First Author</span>
+    <span class="cv-entry-role">Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages (Pi-SQL)</span>
+    <span class="cv-entry-date">Co-First Author</span>
   </div>
   <ul>
-    <li><b>Status:</b> In Submission to EMNLP 2025</li>
+    <li><b>Status:</b> Accepted to Findings of EMNLP 2025</li>
     <li><b>Method & Result:</b> Proposed using pivot programming languages (e.g., Python) as an intermediate representation to provide fine-grained structural guidance for Text-to-SQL generation.</li>
   </ul>
 </div>
@@ -73,7 +73,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
   </div>
   <ul>
     <li><b>Status:</b> Accepted to NAACL 2025</li>
-    <li><b>Method & Result:</b> Proposed initializing LoRA adapters with minor (rather than dominant) singular components of pre-trained weight matrices, reducing interference with existing knowledge while enabling more effective task-specific adaptation.</li>
+    <li><b>Method & Result:</b> Proposed initializing LoRA adapters with minor singular components of pre-trained weight matrices, reducing interference with existing knowledge while enabling more effective task-specific adaptation.</li>
     <li><b>Links:</b> <a href="https://aclanthology.org/2025.naacl-long.248/">[Paper]</a> | <a href="https://github.com/sufenlp/MiLoRA">[Code]</a></li>
   </ul>
 </div>
@@ -93,7 +93,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agent 
 ## Full Publications
 
 **[1] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
-Yongdong Chi\*, **Hanqing Wang**\*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen. *In Submission to EMNLP 2025*
+Yongdong Chi\*, **Hanqing Wang**\*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen. *Findings of EMNLP 2025*
 
 **[2] MALoRA: Mixture of Asymmetric Low-Rank Adaptation for Enhanced Multi-Task Learning**
 Xujia Wang, Haiyan Zhao, Shuo Wang, **Hanqing Wang**, Zhiyuan Liu. *Findings of NAACL 2025*
