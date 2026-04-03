@@ -11,12 +11,11 @@ author_profile: true
     <h3><a href="https://github.com/sustech-nlp/Pi-SQL">Pi-SQL</a></h3>
     <p>Proposed using pivot programming languages (e.g., Python) as an intermediate representation to provide fine-grained structural guidance for Text-to-SQL generation.</p>
     <div class="project-tags">
-      <span>LoRA</span>
       <span>LLM</span>
-      <span>PEFT</span>
+      <span>Text-to-SQL</span>
     </div>
     <div class="project-links">
-      <a href="https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf/">[Paper]</a>
+      <a href="https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf">[Paper]</a>
       <a href="https://github.com/sustech-nlp/Pi-SQL">[Code]</a>
     </div>
   </div>
@@ -30,7 +29,7 @@ author_profile: true
       <span>PEFT</span>
     </div>
     <div class="project-links">
-      <a href="https://aclanthology.org/2025.naacl-long.248/">[Paper]</a>
+      <a href="https://aclanthology.org/2025.naacl-long.248.pdf">[Paper]</a>
       <a href="https://github.com/sufenlp/MiLoRA">[Code]</a>
     </div>
   </div>
@@ -44,7 +43,7 @@ author_profile: true
       <span>Generation</span>
     </div>
     <div class="project-links">
-      <a href="https://aclanthology.org/2024.acl-long.695/">[Paper]</a>
+      <a href="https://aclanthology.org/2024.acl-long.695.pdf">[Paper]</a>
       <a href="https://github.com/thunlp/LoRAFlow">[Code]</a>
     </div>
   </div>
