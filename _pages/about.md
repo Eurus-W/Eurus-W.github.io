@@ -49,6 +49,7 @@ redirect_from:
       <ul class="news-list">
         <li><span class="news-date">Dec 2025</span><span class="news-text">Awarded <b>"Academic Star"</b> (5 recipients/year university-wide, Highest Honor) at SUFE!</span></li>
         <li><span class="news-date">Sep 2025</span><span class="news-text">Awarded <b>National Academic Scholarship</b>!</span></li>
+        <li><span class="news-date">Nov 2025</span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2025</b>!</span></li>
         <li><span class="news-date">Mar 2025</span><span class="news-text">One paper accepted at <b>NAACL 2025</b>!</span></li>
         <li><span class="news-date">Jan 2025</span><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
         <li><span class="news-date">Sep 2024</span><span class="news-text">Awarded <b>First-Class Academic Scholarship</b> at SUFE.</span></li>
@@ -64,6 +65,18 @@ redirect_from:
   <div class="home-section home-card">
     <div class="section-label">Selected Publications</div>
     <div class="pub-list-compact">
+
+      <div class="pub-entry">
+        <span class="pub-badge pub-badge-emnlp">EMNLP 2025</span>
+        <div class="pub-content">
+          <div class="pub-title">Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages</div>
+          <span class="pub-authors">Yongdong Chi*, <u>Hanqing Wang</u>*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen</span>
+          <div class="pub-links">
+            <a href="https://aclanthology.org/2025.findings-emnlp.1369.pdf">[Paper]</a>
+            <a href="https://github.com/sustech-nlp/Pi-SQL">[Code]</a>
+          </div>
+        </div>
+      </div>
 
       <div class="pub-entry">
         <span class="pub-badge pub-badge-naacl">NAACL 2025</span>

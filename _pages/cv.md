@@ -145,6 +145,10 @@ Weikang Wang, Guanhua Chen, **Hanqing Wang**, Yue Han, Yun Chen. *Findings of EM
 
 </div>
 
+## Professional Service
+
+- Reviewer, ACL Rolling Review (ACL ARR); CCL 2025
+
 ## Others
 
 - Member of the University Table Tennis Team and the School Basketball Team.
