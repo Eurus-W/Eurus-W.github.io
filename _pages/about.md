@@ -36,8 +36,12 @@ redirect_from:
       <h4>Parameter-Efficient Fine-Tuning</h4>
     </div>
     <div class="research-card">
-      <i class="fas fa-compress-arrows-alt"></i>
-      <h4>Model Compression</h4>
+      <i class="fas fa-robot"></i>
+      <h4>LLM Agents</h4>
+    </div>
+    <div class="research-card">
+      <i class="fas fa-database"></i>
+      <h4>Text-to-SQL</h4>
     </div>
   </div>
 </div>
@@ -47,6 +51,7 @@ redirect_from:
     <div class="section-label">News</div>
     <div class="news-section">
       <ul class="news-list">
+        <li><span class="news-date">Apr 2026</span><span class="news-text">One paper accepted at <b>Findings of ACL 2026</b>!</span></li>
         <li><span class="news-date">Dec 2025</span><span class="news-text">Awarded <b>"Academic Star"</b> (5 recipients/year university-wide, Highest Honor) at SUFE!</span></li>
         <li><span class="news-date">Sep 2025</span><span class="news-text">Awarded <b>National Academic Scholarship</b>!</span></li>
         <li><span class="news-date">Nov 2025</span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2025</b>!</span></li>
@@ -65,6 +70,14 @@ redirect_from:
   <div class="home-section home-card">
     <div class="section-label">Selected Publications</div>
     <div class="pub-list-compact">
+
+      <div class="pub-entry">
+        <span class="pub-badge pub-badge-acl">ACL 2026</span>
+        <div class="pub-content">
+          <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</div>
+          <span class="pub-authors"><u>Hanqing Wang</u>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
+        </div>
+      </div>
 
       <div class="pub-entry">
         <span class="pub-badge pub-badge-emnlp">EMNLP 2025</span>

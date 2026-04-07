@@ -32,7 +32,7 @@ redirect_from:
 
 ## Research Interests
 
-Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
+Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents, Text-to-SQL
 
 ## Technical Skills
 
@@ -52,6 +52,17 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
   <ul>
     <li><b>Objective:</b> Research on parameter-efficient fine-tuning and model compression for large language models, supervised by Shuo Wang.</li>
     <li><b>Results:</b> Led LoRA-Flow (ACL 2024), a dynamic LoRA fusion mechanism for generative tasks; collaborated on Delta-CoMe (NeurIPS 2024), training-free delta compression with mixed-precision for LLMs.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-item">
+    <span class="cv-entry-role">Automated Discovery of Latent Vulnerabilities in Text-to-SQL</span>
+    <span class="cv-entry-date">First Author</span>
+  </div>
+  <ul>
+    <li><b>Status:</b> Accepted to Findings of ACL 2026</li>
+    <li><b>Method & Result:</b> Proposed an automated approach to discover latent vulnerabilities in Text-to-SQL systems, going beyond static rule-based detection.</li>
   </ul>
 </div>
 
@@ -93,32 +104,34 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 
 ## Full Publications
 
-**[1] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
+**[1] Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL**
+**Hanqing Wang**, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen. *Findings of ACL 2026*
+
+**[2] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
 Yongdong Chi\*, **Hanqing Wang**\*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen. *Findings of EMNLP 2025*
 \[[Paper](https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1369.pdf)\]\[[Code](https://github.com/sustech-nlp/Pi-SQL)\]
 
-
-**[2] MALoRA: Mixture of Asymmetric Low-Rank Adaptation for Enhanced Multi-Task Learning**
+**[3] MALoRA: Mixture of Asymmetric Low-Rank Adaptation for Enhanced Multi-Task Learning**
 Xujia Wang, Haiyan Zhao, Shuo Wang, **Hanqing Wang**, Zhiyuan Liu. *Findings of NAACL 2025*
 \[[Paper](https://aclanthology.org/2025.findings-naacl.312.pdf)\]
 
-**[3] MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning**
+**[4] MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning**
 **Hanqing Wang**, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen. *NAACL 2025*
 \[[Paper](https://aclanthology.org/2025.naacl-long.248.pdf)\] \[[Code](https://github.com/sufenlp/MiLoRA)\]
 
-**[4] Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models**
+**[5] Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models**
 Bowen Ping, Shuo Wang, **Hanqing Wang**, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun. *NeurIPS 2024*
 \[[Paper](https://openreview.net/pdf?id=cr5EQRJlRn)\] \[[Code](https://github.com/thunlp/Delta-CoMe)\]
 
-**[5] LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks**
+**[6] LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks**
 **Hanqing Wang**\*, Bowen Ping\*, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, Maosong Sun. *ACL 2024*
 \[[Paper](https://aclanthology.org/2024.acl-long.695.pdf)\] \[[Code](https://github.com/thunlp/LoRAFlow)\]
 
-**[6] StyleBART: Decorate Pretrained Model with Style Adapters for Unsupervised Stylistic Headline Generation**
+**[7] StyleBART: Decorate Pretrained Model with Style Adapters for Unsupervised Stylistic Headline Generation**
 **Hanqing Wang**\*, Yajing Luo\*, Boya Xiong, Guanhua Chen, Yun Chen. *Findings of EMNLP 2023*
 \[[Paper](https://aclanthology.org/2023.findings-emnlp.697.pdf)\]
 
-**[7] Multilingual Sentence Transformer as A Multilingual Word Aligner**
+**[8] Multilingual Sentence Transformer as A Multilingual Word Aligner**
 Weikang Wang, Guanhua Chen, **Hanqing Wang**, Yue Han, Yun Chen. *Findings of EMNLP 2022 (short)*
 \[[Paper](https://aclanthology.org/2022.findings-emnlp.215.pdf)\]
 
@@ -147,7 +160,7 @@ Weikang Wang, Guanhua Chen, **Hanqing Wang**, Yue Han, Yun Chen. *Findings of EM
 
 ## Professional Service
 
-- Reviewer, ACL Rolling Review (ACL ARR); CCL 2025
+- Reviewer, ACL Rolling Review (ARR, e.g., ACL/EMNLP/NAACL); CCL 2025
 
 ## Others
 
