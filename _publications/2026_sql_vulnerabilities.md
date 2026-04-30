@@ -18,7 +18,7 @@ Text-to-SQL systems are increasingly deployed in production, yet existing safety
 
 ## Links
 
-- (Camera-ready link will be added once the ACL Anthology posts the Findings volume.)
+*Camera-ready link will be added once the ACL Anthology posts the Findings volume.*
 
 ## BibTeX
 
