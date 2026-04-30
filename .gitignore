@@ -6,6 +6,9 @@ _site/
 # Ignore the directory for local files during development
 local/
 
+# Ignore internal design docs (kept outside repo at ../homepage-specs/)
+docs/
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
