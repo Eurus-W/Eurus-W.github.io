@@ -314,15 +314,15 @@
 
   .pub-title {
     font-weight: 600;
-    font-size: 0.98rem;
+    font-size: 0.92rem;
     color: var(--global-text-color);
     line-height: 1.4;
   }
 
   .pub-authors {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--global-text-color-light);
-    margin-top: 0.3rem;
+    margin-top: 0.25rem;
     display: block;
     line-height: 1.45;
   }
@@ -819,46 +819,39 @@
   font-weight: 400;
 }
 
-/* Teaser image — left of pub-content. 5:3 aspect, sized for retina display.
-   Source PNGs are 640×384 with white letterbox padding to keep aspect uniform. */
+/* Teaser image — left of pub-content. Native aspect (no letterbox);
+   source PNGs are 640px wide at the figure's natural ratio. */
 .pub-figure {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   flex-shrink: 0;
+  width: 320px;
   margin-right: 1rem;
   align-self: flex-start;
-  border-radius: 4px;
-  overflow: hidden;
-  background-color: var(--global-surface-color);
 }
 
 .pub-teaser {
   display: block;
-  width: 320px;
-  height: 192px;
-  object-fit: contain;
-  background-color: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
-[data-theme="dark"] .pub-teaser {
-  background-color: #f5f0e8;
-}
-
-/* Venue ribbon overlaid on image top-left */
+/* Venue pill above image — small badge, doesn't cover figure content */
 .pub-ribbon {
-  position: absolute;
-  top: 0.55rem;
-  left: 0;
-  padding: 0.28rem 0.65rem 0.28rem 0.55rem;
+  display: inline-block;
+  padding: 0.22rem 0.7rem;
+  margin-bottom: 0.45rem;
+  border-radius: 4px;
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 600;
   color: #fff;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   white-space: nowrap;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .pub-ribbon-acl     { background-color: #5c88a8; }
@@ -873,9 +866,9 @@
   flex-wrap: wrap;
   column-gap: 0.4rem;
   row-gap: 0.2rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--global-text-color-light);
-  margin-top: 0.35rem;
+  margin-top: 0.3rem;
 
   a {
     color: var(--global-link-color);
@@ -914,10 +907,10 @@
 
 /* TL;DR bullet line */
 .pub-tldr {
-  margin-top: 0.55rem;
+  margin-top: 0.45rem;
   padding-left: 1.1rem;
-  font-size: 0.85rem;
-  line-height: 1.55;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--global-text-color);
   position: relative;
 
