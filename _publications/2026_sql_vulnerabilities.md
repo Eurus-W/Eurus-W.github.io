@@ -8,13 +8,15 @@ date: 2026-04-07
 venue: 'Findings of ACL 2026'
 ---
 
+*Method: **SAGE** — Systematic Automated Guided Exploration.*
+
 ## TL;DR
 
-Replaces hand-written safety rules for Text-to-SQL with an automated approach that learns to surface previously unknown vulnerability patterns — catching failure cases static rules miss while keeping the findings interpretable.
+SAGE (Systematic Automated Guided Exploration) automates the discovery of latent failure patterns in LLM-based Text-to-SQL — going beyond static rule-based detection by generating vulnerability hypotheses and using a continuously evolving Vulnerability Codex to design targeted perturbations.
 
 ## Abstract
 
-Text-to-SQL systems are increasingly deployed in production, yet existing safety evaluations rely on static, hand-crafted rule sets that miss novel attack patterns. We propose an automated approach to discover latent vulnerabilities in Text-to-SQL systems, going beyond static rule-based detection by learning to surface previously unknown risk patterns. Our method identifies failure cases that hand-written rules miss while remaining interpretable to security analysts. (Findings of ACL 2026.)
+While Large Language Models (LLMs) have achieved remarkable success in Text-to-SQL tasks, their deployment in real-world environments is hindered by latent reliability issues. Identifying these latent weaknesses is critical for building trustworthy database interfaces, yet current diagnostic approaches rely heavily on static, expert-defined rules, which lack the capability for systematic and automated exploration. To bridge this gap, we propose SAGE (Systematic Automated Guided Exploration), a novel framework designed to autonomously uncover latent failure patterns in LLM-based Text-to-SQL generation. Specifically, SAGE generates vulnerability hypotheses for given samples and references a continuously evolving Vulnerability Codex to design targeted perturbations, thereby iteratively verifying and documenting potential defects. Extensive experiments on state-of-the-art open-source LLMs demonstrate that SAGE uncovers a substantial number of failure cases, highlighting the significant fragility of current models. Furthermore, our analysis reveals that the Vulnerability Codex exhibits strong cross-model transferability, indicating that the discovered patterns represent generalized structural weaknesses. Finally, we explore SAGE's potential for remediation. Furthermore, a preliminary attempt at lightweight fine-tuning on the generated samples yields promising improvements, suggesting a scalable pathway for closing the reliability loop in future work.
 
 ## Links
 

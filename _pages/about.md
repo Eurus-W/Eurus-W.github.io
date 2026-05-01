@@ -96,7 +96,7 @@ redirect_from:
         <img class="pub-teaser" src="/images/teasers/sage.png" alt="SAGE method overview">
         <span class="pub-badge pub-badge-acl">ACL 2026<span class="pub-tier">CCF-A · Findings</span></span>
         <div class="pub-content">
-          <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</div>
+          <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL <span class="pub-method">(SAGE)</span></div>
           <span class="pub-authors"><u>Hanqing Wang</u>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
         </div>
       </div>
