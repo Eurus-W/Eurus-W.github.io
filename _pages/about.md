@@ -100,7 +100,7 @@ redirect_from:
           <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL <span class="pub-method">(SAGE)</span></div>
           <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
           <div class="pub-meta">
-            <span class="pub-venue-info"><i class="fas fa-star"></i> ACL 2026 Findings · CCF-A</span>
+            <span class="pub-venue-info">ACL 2026 Findings · CCF-A</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> SAGE (Systematic Automated Guided Exploration) automates discovery of latent failure patterns in LLM Text-to-SQL — generating vulnerability hypotheses with a continuously evolving Vulnerability Codex of perturbations.</div>
         </div>
@@ -119,7 +119,7 @@ redirect_from:
             <span class="pub-meta-sep">|</span>
             <a href="https://github.com/sustech-nlp/Pi-SQL"><i class="fab fa-github"></i> Code</a>
             <span class="pub-meta-sep">|</span>
-            <span class="pub-venue-info"><i class="fas fa-star"></i> EMNLP 2025 Findings · CCF-B</span>
+            <span class="pub-venue-info">EMNLP 2025 Findings · CCF-B</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> Uses Python as a pivot intermediate representation to give Text-to-SQL fine-grained structural guidance — leveraging LLMs' stronger Python understanding to bootstrap better SQL generation.</div>
         </div>
@@ -138,7 +138,7 @@ redirect_from:
             <span class="pub-meta-sep">|</span>
             <a href="https://github.com/sufenlp/MiLoRA"><i class="fab fa-github"></i> Code</a>
             <span class="pub-meta-sep">|</span>
-            <span class="pub-venue-info"><i class="fas fa-star"></i> NAACL 2025 Main · CCF-B</span>
+            <span class="pub-venue-info">NAACL 2025 Main · CCF-B</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> Initializes LoRA adapters using the <em>minor</em> singular components of pre-trained weights — reducing interference with the base model's existing knowledge while still enabling effective task adaptation.</div>
         </div>
@@ -157,7 +157,7 @@ redirect_from:
             <span class="pub-meta-sep">|</span>
             <a href="https://github.com/thunlp/Delta-CoMe"><i class="fab fa-github"></i> Code</a>
             <span class="pub-meta-sep">|</span>
-            <span class="pub-venue-info"><i class="fas fa-star"></i> NeurIPS 2024 · CCF-A</span>
+            <span class="pub-venue-info">NeurIPS 2024 · CCF-A</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> Compresses the <em>delta</em> (fine-tuned minus base weights) of an aligned LLM with mixed-precision quantization — recovering near-full performance with a fraction of storage and zero retraining.</div>
         </div>
@@ -176,7 +176,7 @@ redirect_from:
             <span class="pub-meta-sep">|</span>
             <a href="https://github.com/thunlp/LoRAFlow"><i class="fab fa-github"></i> Code</a>
             <span class="pub-meta-sep">|</span>
-            <span class="pub-venue-info"><i class="fas fa-star"></i> ACL 2024 Main · CCF-A</span>
+            <span class="pub-venue-info">ACL 2024 Main · CCF-A</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> Replaces fixed LoRA fusion weights with a per-token dynamic gate — letting multiple task-specific LoRA adapters be combined adaptively during generation rather than averaged with a static recipe.</div>
         </div>
@@ -193,7 +193,7 @@ redirect_from:
           <div class="pub-meta">
             <a href="https://aclanthology.org/2023.findings-emnlp.697/"><i class="far fa-file-pdf"></i> Paper</a>
             <span class="pub-meta-sep">|</span>
-            <span class="pub-venue-info"><i class="fas fa-star"></i> EMNLP 2023 Findings · CCF-B</span>
+            <span class="pub-venue-info">EMNLP 2023 Findings · CCF-B</span>
           </div>
           <div class="pub-tldr"><strong>TL;DR:</strong> Adds lightweight style adapters on top of frozen BART to generate stylistic news headlines without paired data — decoupling content faithfulness from style transfer.</div>
         </div>
