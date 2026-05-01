@@ -201,7 +201,7 @@
 
 .home-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 1.5rem;
 }
 
@@ -818,15 +818,15 @@
 }
 
 /* Teaser image — left of pub-content. 5:3 aspect, sized for retina display.
-   Source PNGs are 300×180 with white letterbox padding to keep aspect uniform. */
+   Source PNGs are 400×240 with white letterbox padding to keep aspect uniform. */
 .pub-teaser {
-  width: 150px;
-  height: 90px;
+  width: 200px;
+  height: 120px;
   object-fit: cover;
   border-radius: 4px;
   margin-right: 0.9rem;
   flex-shrink: 0;
-  align-self: center;
+  align-self: flex-start;
   background-color: #fff;
 }
 
