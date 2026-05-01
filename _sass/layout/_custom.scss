@@ -295,12 +295,10 @@
   font-weight: 500;
   color: #fff;
   white-space: nowrap;
-  min-width: 100px;
-  text-align: center;
-  flex-shrink: 0;
-  margin-top: 3px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  align-self: flex-start;
 }
 
 .pub-badge-acl       { background-color: #5c88a8; }
@@ -798,14 +796,17 @@
   }
 }
 
-/* Publication badge — CCF tier + Findings track on a second line within the same chip */
+/* Publication badge — CCF tier + Findings track inline after venue name */
 .pub-tier {
-  display: block;
+  display: inline;
   font-size: 0.55rem;
   font-weight: 400;
   opacity: 0.88;
-  margin-top: 2px;
   letter-spacing: 0.05em;
+
+  &::before {
+    content: " · ";
+  }
 }
 
 /* SAGE method-name annotation in pub-title */
@@ -818,15 +819,15 @@
 }
 
 /* Teaser image — left of pub-content. 5:3 aspect, sized for retina display.
-   Source PNGs are 500×300 with white letterbox padding to keep aspect uniform. */
+   Source PNGs are 640×384 with white letterbox padding to keep aspect uniform. */
 .pub-teaser {
-  width: 250px;
-  height: 150px;
+  width: 320px;
+  height: 192px;
   object-fit: cover;
   border-radius: 4px;
   margin-right: 1rem;
   flex-shrink: 0;
-  align-self: center;
+  align-self: flex-start;
   background-color: #fff;
 }
 
