@@ -9,18 +9,25 @@ redirect_from:
 ---
 
 <div class="hero-section">
-  <div class="hero-avatar">
-    <img src="/images/whq.jpg" alt="Hanqing Wang" />
-  </div>
-  <div class="hero-info">
-    <h1 class="hero-name">Hanqing Wang</h1>
-    <p class="hero-title">Ph.D. Student at Shanghai University of Finance and Economics (SUFE)</p>
-    <p class="hero-bio">I am a fourth-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, specializing in large language models and parameter-efficient fine-tuning. I obtained my bachelor's degree from SUFE in 2022. From September 2023 to January 2025, I worked as a research intern at THUNLP & QY Lab, under the supervision of <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. I have published several papers in top conferences such as ACL, EMNLP, NAACL and NeurIPS.</p>
-    <div class="hero-links">
-      <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/Eurus-W" title="GitHub"><i class="fab fa-github"></i></a>
+  <div class="hero-top">
+    <div class="hero-avatar">
+      <img src="/images/whq.jpg" alt="Hanqing Wang" />
     </div>
+    <div class="hero-info">
+      <h1 class="hero-name">Hanqing Wang</h1>
+      <p class="hero-title">Ph.D. Student at Shanghai University of Finance and Economics (SUFE)</p>
+      <p class="hero-bio">My research is unified by one question: <b>how do we transfer capabilities into and across large language models efficiently?</b> I work on parameter-efficient adaptation, model compression, and cross-task / cross-modal knowledge migration — and increasingly on how the same lens applies to agent skill design.</p>
+      <p class="hero-bio">I am a 4th-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, and previously a research intern at THUNLP &amp; QY Lab supervised by <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. My work has appeared at ACL, EMNLP, NAACL, and NeurIPS. I was recently selected as <b>SUFE Academic Star</b> (5 PhD students per year university-wide).</p>
+      <div class="hero-links">
+        <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://github.com/Eurus-W" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="status-bar">
+    <i class="fas fa-bullseye"></i>
+    <span><strong>Open to industry research positions</strong> · Expected to graduate July 2027</span>
   </div>
 </div>
 
