@@ -69,8 +69,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="home-grid">
-  <div class="home-section home-card">
+<div class="home-section home-card">
     <div class="section-label">News</div>
     <div class="news-section">
       <ul class="news-list">
@@ -167,4 +166,3 @@ redirect_from:
 
     </div>
   </div>
-</div>
