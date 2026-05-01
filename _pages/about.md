@@ -92,75 +92,110 @@ redirect_from:
     <div class="pub-list-compact">
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/sage.png" alt="SAGE method overview">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/sage.png" alt="SAGE method overview">
+          <span class="pub-ribbon pub-ribbon-acl">ACL 2026</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-acl">ACL 2026<span class="pub-tier">CCF-A · Findings</span></span>
           <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL <span class="pub-method">(SAGE)</span></div>
-          <span class="pub-authors"><u>Hanqing Wang</u>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
+          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
+          <div class="pub-meta">
+            <span class="pub-venue-info"><i class="fas fa-star"></i> ACL 2026 Findings · CCF-A</span>
+          </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> SAGE (Systematic Automated Guided Exploration) automates discovery of latent failure patterns in LLM Text-to-SQL — generating vulnerability hypotheses with a continuously evolving Vulnerability Codex of perturbations.</div>
         </div>
       </div>
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/pi-sql.png" alt="Pi-SQL pivot programming language pipeline">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/pi-sql.png" alt="Pi-SQL pivot programming language pipeline">
+          <span class="pub-ribbon pub-ribbon-emnlp">EMNLP 2025</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-emnlp">EMNLP 2025<span class="pub-tier">CCF-B · Findings</span></span>
           <div class="pub-title">Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages</div>
-          <span class="pub-authors">Yongdong Chi*, <u>Hanqing Wang</u>*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen</span>
-          <div class="pub-links">
-            <a href="https://aclanthology.org/2025.findings-emnlp.1369.pdf">[Paper]</a>
-            <a href="https://github.com/sustech-nlp/Pi-SQL">[Code]</a>
+          <span class="pub-authors">Yongdong Chi*, <span class="pub-author-self">Hanqing Wang</span>*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen</span>
+          <div class="pub-meta">
+            <a href="https://aclanthology.org/2025.findings-emnlp.1369.pdf"><i class="far fa-file-pdf"></i> Paper</a>
+            <span class="pub-meta-sep">|</span>
+            <a href="https://github.com/sustech-nlp/Pi-SQL"><i class="fab fa-github"></i> Code</a>
+            <span class="pub-meta-sep">|</span>
+            <span class="pub-venue-info"><i class="fas fa-star"></i> EMNLP 2025 Findings · CCF-B</span>
           </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> Uses Python as a pivot intermediate representation to give Text-to-SQL fine-grained structural guidance — leveraging LLMs' stronger Python understanding to bootstrap better SQL generation.</div>
         </div>
       </div>
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/milora.png" alt="MiLoRA minor singular component initialization">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/milora.png" alt="MiLoRA minor singular component initialization">
+          <span class="pub-ribbon pub-ribbon-naacl">NAACL 2025</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-naacl">NAACL 2025<span class="pub-tier">CCF-B</span></span>
           <div class="pub-title">MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning</div>
-          <span class="pub-authors"><u>Hanqing Wang</u>, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen</span>
-          <div class="pub-links">
-            <a href="https://aclanthology.org/2025.naacl-long.248/">[Paper]</a>
-            <a href="https://github.com/sufenlp/MiLoRA">[Code]</a>
+          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen</span>
+          <div class="pub-meta">
+            <a href="https://aclanthology.org/2025.naacl-long.248/"><i class="far fa-file-pdf"></i> Paper</a>
+            <span class="pub-meta-sep">|</span>
+            <a href="https://github.com/sufenlp/MiLoRA"><i class="fab fa-github"></i> Code</a>
+            <span class="pub-meta-sep">|</span>
+            <span class="pub-venue-info"><i class="fas fa-star"></i> NAACL 2025 Main · CCF-B</span>
           </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> Initializes LoRA adapters using the <em>minor</em> singular components of pre-trained weights — reducing interference with the base model's existing knowledge while still enabling effective task adaptation.</div>
         </div>
       </div>
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/delta-come.png" alt="Delta-CoMe mixed-precision delta compression">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/delta-come.png" alt="Delta-CoMe mixed-precision delta compression">
+          <span class="pub-ribbon pub-ribbon-neurips">NeurIPS 2024</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-neurips">NeurIPS 2024<span class="pub-tier">CCF-A</span></span>
           <div class="pub-title">Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models</div>
-          <span class="pub-authors">Bowen Ping, Shuo Wang, <u>Hanqing Wang</u>, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun</span>
-          <div class="pub-links">
-            <a href="https://openreview.net/pdf?id=cr5EQRJlRn">[Paper]</a>
-            <a href="https://github.com/thunlp/Delta-CoMe">[Code]</a>
+          <span class="pub-authors">Bowen Ping, Shuo Wang, <span class="pub-author-self">Hanqing Wang</span>, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun</span>
+          <div class="pub-meta">
+            <a href="https://openreview.net/pdf?id=cr5EQRJlRn"><i class="far fa-file-pdf"></i> Paper</a>
+            <span class="pub-meta-sep">|</span>
+            <a href="https://github.com/thunlp/Delta-CoMe"><i class="fab fa-github"></i> Code</a>
+            <span class="pub-meta-sep">|</span>
+            <span class="pub-venue-info"><i class="fas fa-star"></i> NeurIPS 2024 · CCF-A</span>
           </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> Compresses the <em>delta</em> (fine-tuned minus base weights) of an aligned LLM with mixed-precision quantization — recovering near-full performance with a fraction of storage and zero retraining.</div>
         </div>
       </div>
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/lora-flow.png" alt="LoRA-Flow dynamic LoRA fusion">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/lora-flow.png" alt="LoRA-Flow dynamic LoRA fusion">
+          <span class="pub-ribbon pub-ribbon-acl">ACL 2024</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-acl">ACL 2024<span class="pub-tier">CCF-A</span></span>
           <div class="pub-title">LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks</div>
-          <span class="pub-authors"><u>Hanqing Wang</u>*, Bowen Ping*, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, Maosong Sun</span>
-          <div class="pub-links">
-            <a href="https://aclanthology.org/2024.acl-long.695/">[Paper]</a>
-            <a href="https://github.com/thunlp/LoRAFlow">[Code]</a>
+          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>*, Bowen Ping*, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, Maosong Sun</span>
+          <div class="pub-meta">
+            <a href="https://aclanthology.org/2024.acl-long.695/"><i class="far fa-file-pdf"></i> Paper</a>
+            <span class="pub-meta-sep">|</span>
+            <a href="https://github.com/thunlp/LoRAFlow"><i class="fab fa-github"></i> Code</a>
+            <span class="pub-meta-sep">|</span>
+            <span class="pub-venue-info"><i class="fas fa-star"></i> ACL 2024 Main · CCF-A</span>
           </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> Replaces fixed LoRA fusion weights with a per-token dynamic gate — letting multiple task-specific LoRA adapters be combined adaptively during generation rather than averaged with a static recipe.</div>
         </div>
       </div>
 
       <div class="pub-entry">
-        <img class="pub-teaser" src="/images/teasers/stylebart.png" alt="StyleBART style adapter architecture">
+        <div class="pub-figure">
+          <img class="pub-teaser" src="/images/teasers/stylebart.png" alt="StyleBART style adapter architecture">
+          <span class="pub-ribbon pub-ribbon-emnlp">EMNLP 2023</span>
+        </div>
         <div class="pub-content">
-          <span class="pub-badge pub-badge-emnlp">EMNLP 2023<span class="pub-tier">CCF-B · Findings</span></span>
           <div class="pub-title">StyleBART: Decorate Pretrained Model with Style Adapters for Unsupervised Stylistic Headline Generation</div>
-          <span class="pub-authors"><u>Hanqing Wang</u>*, Yajing Luo*, Boya Xiong, Guanhua Chen, Yun Chen</span>
-          <div class="pub-links">
-            <a href="https://aclanthology.org/2023.findings-emnlp.697/">[Paper]</a>
+          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>*, Yajing Luo*, Boya Xiong, Guanhua Chen, Yun Chen</span>
+          <div class="pub-meta">
+            <a href="https://aclanthology.org/2023.findings-emnlp.697/"><i class="far fa-file-pdf"></i> Paper</a>
+            <span class="pub-meta-sep">|</span>
+            <span class="pub-venue-info"><i class="fas fa-star"></i> EMNLP 2023 Findings · CCF-B</span>
           </div>
+          <div class="pub-tldr"><strong>TL;DR:</strong> Adds lightweight style adapters on top of frozen BART to generate stylistic news headlines without paired data — decoupling content faithfulness from style transfer.</div>
         </div>
       </div>
 
