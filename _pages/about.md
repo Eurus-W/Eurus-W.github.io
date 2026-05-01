@@ -93,7 +93,7 @@ redirect_from:
     <div class="pub-list-compact">
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-acl">ACL 2026</span>
+        <span class="pub-badge pub-badge-acl">ACL 2026<span class="pub-tier">CCF-A · Findings</span></span>
         <div class="pub-content">
           <div class="pub-title">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</div>
           <span class="pub-authors"><u>Hanqing Wang</u>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
@@ -101,7 +101,7 @@ redirect_from:
       </div>
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-emnlp">EMNLP 2025</span>
+        <span class="pub-badge pub-badge-emnlp">EMNLP 2025<span class="pub-tier">CCF-B · Findings</span></span>
         <div class="pub-content">
           <div class="pub-title">Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages</div>
           <span class="pub-authors">Yongdong Chi*, <u>Hanqing Wang</u>*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen</span>
@@ -113,7 +113,7 @@ redirect_from:
       </div>
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-naacl">NAACL 2025</span>
+        <span class="pub-badge pub-badge-naacl">NAACL 2025<span class="pub-tier">CCF-B</span></span>
         <div class="pub-content">
           <div class="pub-title">MiLoRA: Harnessing Minor Singular Components for Parameter-Efficient LLM Finetuning</div>
           <span class="pub-authors"><u>Hanqing Wang</u>, Yixia Li, Shuo Wang, Guanhua Chen, Yun Chen</span>
@@ -125,7 +125,7 @@ redirect_from:
       </div>
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-neurips">NeurIPS 2024</span>
+        <span class="pub-badge pub-badge-neurips">NeurIPS 2024<span class="pub-tier">CCF-A</span></span>
         <div class="pub-content">
           <div class="pub-title">Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Large Language Models</div>
           <span class="pub-authors">Bowen Ping, Shuo Wang, <u>Hanqing Wang</u>, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun</span>
@@ -137,7 +137,7 @@ redirect_from:
       </div>
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-acl">ACL 2024</span>
+        <span class="pub-badge pub-badge-acl">ACL 2024<span class="pub-tier">CCF-A</span></span>
         <div class="pub-content">
           <div class="pub-title">LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks</div>
           <span class="pub-authors"><u>Hanqing Wang</u>*, Bowen Ping*, Shuo Wang, Xu Han, Yun Chen, Zhiyuan Liu, Maosong Sun</span>
@@ -149,7 +149,7 @@ redirect_from:
       </div>
 
       <div class="pub-entry">
-        <span class="pub-badge pub-badge-emnlp">EMNLP 2023</span>
+        <span class="pub-badge pub-badge-emnlp">EMNLP 2023<span class="pub-tier">CCF-B · Findings</span></span>
         <div class="pub-content">
           <div class="pub-title">StyleBART: Decorate Pretrained Model with Style Adapters for Unsupervised Stylistic Headline Generation</div>
           <span class="pub-authors"><u>Hanqing Wang</u>*, Yajing Luo*, Boya Xiong, Guanhua Chen, Yun Chen</span>
