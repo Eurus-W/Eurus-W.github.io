@@ -75,8 +75,6 @@ redirect_from:
     <div class="news-section">
       <ul class="news-list">
         <li><span class="news-date">Apr 2026</span><span class="news-text">One paper accepted at <b>Findings of ACL 2026</b>!</span></li>
-        <li><span class="news-date">Dec 2025</span><span class="news-text">Awarded <b>"Academic Star"</b> (5 recipients/year university-wide, Highest Honor) at SUFE!</span></li>
-        <li><span class="news-date">Sep 2025</span><span class="news-text">Awarded <b>National Academic Scholarship</b>!</span></li>
         <li><span class="news-date">Nov 2025</span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2025</b>!</span></li>
         <li><span class="news-date">Mar 2025</span><span class="news-text">One paper accepted at <b>NAACL 2025</b>!</span></li>
         <li><span class="news-date">Jan 2025</span><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
