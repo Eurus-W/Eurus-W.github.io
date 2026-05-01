@@ -32,6 +32,22 @@ redirect_from:
 </div>
 
 <div class="home-section">
+  <div class="section-label">Selected Honors</div>
+  <div class="honors-grid">
+    <div class="honor-card">
+      <i class="fas fa-star"></i>
+      <h4>Academic Star</h4>
+      <p>5 PhD students per year university-wide · SUFE, Dec 2025</p>
+    </div>
+    <div class="honor-card">
+      <i class="fas fa-medal"></i>
+      <h4>National PhD Scholarship</h4>
+      <p>Top ~3% nationwide · China MoE, Sep 2025</p>
+    </div>
+  </div>
+</div>
+
+<div class="home-section">
   <div class="section-label">Research Interests</div>
   <div class="research-interests">
     <div class="research-card">
