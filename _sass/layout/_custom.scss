@@ -608,7 +608,8 @@
 }
 
 [data-theme="dark"] .research-card:hover,
-[data-theme="dark"] .project-card:hover {
+[data-theme="dark"] .project-card:hover,
+[data-theme="dark"] .honor-card:hover {
   border-color: rgba(212, 184, 150, 0.25);
 }
 
@@ -708,8 +709,10 @@
    PHASE 2 — STATUS BAR + HONORS BAR + PUBLICATION BADGE EXTENSIONS
    ========================================================================== */
 
-/* Hero section becomes a vertical stack: top row (avatar + info), then status bar */
-.hero-section {
+/* Hero section becomes a vertical stack only when .hero-top wrapper is present.
+   The :has() guard keeps existing HTML (without .hero-top) on the legacy flex-row
+   layout until Task 3 lands, avoiding a temporary broken state. */
+.hero-section:has(.hero-top) {
   flex-direction: column;
   align-items: stretch;
 }
@@ -732,8 +735,7 @@
   font-size: 0.85rem;
   color: #fff;
   margin-top: 0.4rem;
-  animation: intro 0.5s both;
-  animation-delay: 0.25s;
+  animation: intro 0.5s 0.25s both;
 
   i {
     font-size: 0.9rem;
@@ -764,6 +766,9 @@
   transition: all 0.25s ease;
   animation: intro 0.4s both;
 
+  &:nth-child(1) { animation-delay: 0.3s; }
+  &:nth-child(2) { animation-delay: 0.4s; }
+
   &:hover {
     box-shadow: var(--global-surface-shadow-hover);
     transform: translateY(-2px);
@@ -792,9 +797,6 @@
     line-height: 1.4;
   }
 }
-
-.honor-card:nth-child(1) { animation-delay: 0.3s; }
-.honor-card:nth-child(2) { animation-delay: 0.4s; }
 
 /* Publication badge — CCF tier + Findings track on a second line within the same chip */
 .pub-tier {
