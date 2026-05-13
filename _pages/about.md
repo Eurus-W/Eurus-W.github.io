@@ -22,7 +22,6 @@ redirect_from:
         <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a href="https://github.com/Eurus-W" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="/zh/" title="中文"><i class="fas fa-language"></i></a>
       </div>
     </div>
   </div>
