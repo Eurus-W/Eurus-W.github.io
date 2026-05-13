@@ -98,7 +98,7 @@ redirect_from:
         </div>
         <div class="pub-content">
           <div class="pub-title"><a href="/publication/2026_sql_vulnerabilities">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</a> <span class="pub-method">SAGE</span></div>
-          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
+          <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>*, Yongdong Chi*, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
           <div class="pub-meta">
             <span class="pub-venue-info">ACL 2026 Findings · CCF-A</span>
           </div>
@@ -112,10 +112,10 @@ redirect_from:
           <span class="pub-ribbon pub-ribbon-emnlp">EMNLP 2025</span>
         </div>
         <div class="pub-content">
-          <div class="pub-title"><a href="https://aclanthology.org/2025.findings-emnlp.1369.pdf">Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages</a></div>
+          <div class="pub-title"><a href="/publication/2025_pi_sql">Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages</a></div>
           <span class="pub-authors">Yongdong Chi*, <span class="pub-author-self">Hanqing Wang</span>*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen</span>
           <div class="pub-meta">
-            <a href="https://aclanthology.org/2025.findings-emnlp.1369.pdf"><i class="far fa-file-pdf"></i> Paper</a>
+            <a href="https://aclanthology.org/2025.findings-emnlp.1369/"><i class="far fa-file-pdf"></i> Paper</a>
             <span class="pub-meta-sep">·</span>
             <a href="https://github.com/sustech-nlp/Pi-SQL"><i class="fab fa-github"></i> Code</a>
             <span class="pub-meta-sep">·</span>
