@@ -108,7 +108,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 **Hanqing Wang**, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen. *Findings of ACL 2026*
 
 **[2] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
-Yongdong Chi\*, **Hanqing Wang**\*, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen. *Findings of EMNLP 2025*
+Yongdong Chi\*, **Hanqing Wang**\*, Yun Chen, Yan Yang, Jian Yang, Zonghan Yang, Xiao Yan, Guanhua Chen. *Findings of EMNLP 2025*
 \[[Paper](https://aclanthology.org/2025.findings-emnlp.1369/)\]\[[Code](https://github.com/sustech-nlp/Pi-SQL)\]
 
 **[3] MALoRA: Mixture of Asymmetric Low-Rank Adaptation for Enhanced Multi-Task Learning**

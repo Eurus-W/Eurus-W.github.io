@@ -3,7 +3,7 @@ title: "Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Prog
 collection: publications
 category: conferences
 permalink: /publication/2025_pi_sql
-excerpt: 'Author: Yongdong Chi<sup>*</sup>, <b>Hanqing Wang</b><sup>*</sup>, Zonghan Yang, Jian Yang, Xiao Yan, Yun Chen, Guanhua Chen'
+excerpt: 'Author: Yongdong Chi<sup>*</sup>, <b>Hanqing Wang</b><sup>*</sup>, Yun Chen, Yan Yang, Jian Yang, Zonghan Yang, Xiao Yan, Guanhua Chen'
 date: 2025-11-05
 venue: 'Findings of EMNLP 2025'
 ---
