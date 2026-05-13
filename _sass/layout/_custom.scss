@@ -84,11 +84,12 @@
 
 .hero-name {
   font-family: Georgia, "Noto Serif SC", serif;
-  font-size: 1.8rem;
+  font-size: 2.7rem;
   font-weight: 400;
   color: var(--global-masthead-link-color);
   margin: 0 0 0.3rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
 
   /* Override default h1 styles */
   &::after {
@@ -140,17 +141,23 @@
    ========================================================================== */
 
 .section-label {
-  font-family: "Inter", -apple-system, sans-serif;
-  font-size: 0.72rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
   color: var(--global-text-color-light);
   margin-bottom: 1rem;
+
+  &::before {
+    content: "§\00a0";
+    color: var(--global-link-color);
+    font-variant: normal;
+  }
 }
 
 .home-section {
-  margin-bottom: 2rem;
+  margin-bottom: 3.2rem;
 }
 
 /*
@@ -174,9 +181,10 @@
   transition: all 0.25s ease;
 
   &:hover {
-    box-shadow: var(--global-surface-shadow-hover);
-    transform: translateY(-2px);
-    border-color: var(--global-link-color);
+    transform: none;
+    box-shadow: var(--global-surface-shadow), inset 3px 0 0 var(--global-link-color);
+    background: rgba(192, 120, 92, 0.05);
+    border-color: var(--global-border-color);
   }
 
   i {
@@ -320,8 +328,9 @@
 
   .pub-title {
     font-family: Georgia, "Noto Serif SC", serif;
-    font-weight: 600;
-    font-size: 0.96rem;
+    font-weight: 500;
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
     color: var(--global-text-color);
     line-height: 1.35;
 
@@ -415,9 +424,10 @@
   transition: all 0.25s ease;
 
   &:hover {
-    box-shadow: var(--global-surface-shadow-hover);
-    transform: translateY(-2px);
-    border-color: var(--global-link-color);
+    transform: none;
+    box-shadow: var(--global-surface-shadow), inset 3px 0 0 var(--global-link-color);
+    background: rgba(192, 120, 92, 0.05);
+    border-color: var(--global-border-color);
   }
 
   h3 {
@@ -626,7 +636,7 @@
 [data-theme="dark"] .research-card:hover,
 [data-theme="dark"] .project-card:hover,
 [data-theme="dark"] .honor-card:hover {
-  border-color: rgba(212, 184, 150, 0.25);
+  background: rgba(212, 184, 150, 0.06);
 }
 
 /*
@@ -786,9 +796,10 @@
   &:nth-child(2) { animation-delay: 0.4s; }
 
   &:hover {
-    box-shadow: var(--global-surface-shadow-hover);
-    transform: translateY(-2px);
-    border-color: var(--global-link-color);
+    transform: none;
+    box-shadow: var(--global-surface-shadow), inset 3px 0 0 var(--global-link-color);
+    background: rgba(192, 120, 92, 0.05);
+    border-color: var(--global-border-color);
   }
 
   i {
