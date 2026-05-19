@@ -3,7 +3,7 @@ title: "Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Te
 collection: publications
 category: conferences
 permalink: /publication/2026_sql_vulnerabilities
-excerpt: 'Author: <b>Hanqing Wang</b>, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen'
+excerpt: 'Author: <b>Hanqing Wang</b><sup>*</sup>, Yongdong Chi<sup>*</sup>, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen'
 date: 2026-04-07
 venue: 'Findings of ACL 2026'
 ---

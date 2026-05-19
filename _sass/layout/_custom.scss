@@ -121,12 +121,12 @@
 
 .hero-links {
   display: flex;
-  gap: 1.25rem;
-  margin-top: 0.5rem;
+  gap: 1.4rem;
+  margin-top: 0.6rem;
 
   a {
     color: var(--global-link-color);
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     transition: color 0.25s ease, transform 0.2s ease;
     text-decoration: none !important;
 
@@ -1086,9 +1086,7 @@
 
 .working-paper {
   font-family: Georgia, "Noto Serif SC", serif;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  padding: 0.45rem 0;
+  padding: 0.7rem 0;
   color: var(--global-text-color);
   border-bottom: 1px dotted var(--global-border-color);
 
@@ -1097,25 +1095,41 @@
   }
 }
 
+.wp-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
 .wp-stage {
   font-variant: small-caps;
   font-weight: 600;
   color: var(--global-link-color);
   letter-spacing: 0.06em;
-}
-
-.wp-sep {
-  color: var(--global-text-color-light);
-}
-
-.wp-desc {
-  color: var(--global-text-color);
+  font-size: 0.92rem;
 }
 
 .wp-meta {
   font-style: italic;
   color: var(--global-text-color-light);
   font-variant-numeric: oldstyle-nums;
+  font-size: 0.85rem;
+  margin-left: auto;
+}
+
+.wp-title {
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+}
+
+.wp-authors {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.25rem;
 }
 
 /* ==========================================================================

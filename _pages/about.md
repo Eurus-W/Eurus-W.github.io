@@ -16,7 +16,7 @@ redirect_from:
     <div class="hero-info">
       <h1 class="hero-name">Hanqing Wang</h1>
       <p class="hero-title">Ph.D. Student at Shanghai University of Finance and Economics (SUFE)</p>
-      <p class="hero-bio">I am a 4th-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, and previously a research intern at THUNLP &amp; QY Lab supervised by <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. My work has appeared at ACL, EMNLP, NAACL, and NeurIPS. I was recently selected as <b>SUFE Academic Star</b> (5 PhD students per year university-wide).</p>
+      <p class="hero-bio">I am a 4th-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, and previously a research intern at THUNLP &amp; QY Lab supervised by <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. My work has appeared at ACL, EMNLP, NAACL, and NeurIPS. I was recently selected as <b>SUFE Academic Star</b> (5 graduate students per year university-wide).</p>
       <div class="hero-links">
         <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>

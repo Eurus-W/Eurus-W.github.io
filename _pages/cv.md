@@ -58,7 +58,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 <div class="cv-entry">
   <div class="cv-entry-item">
     <span class="cv-entry-role">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</span>
-    <span class="cv-entry-date">First Author</span>
+    <span class="cv-entry-date">Co-First Author</span>
   </div>
   <ul>
     <li><b>Status:</b> Accepted to Findings of ACL 2026</li>
@@ -105,7 +105,7 @@ Large Language Models (LLMs), Parameter Efficient Fine-Tuning (PEFT), LLM Agents
 ## Full Publications
 
 **[1] Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL**
-**Hanqing Wang**, Yongdong Chi, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen. *Findings of ACL 2026*
+**Hanqing Wang**\*, Yongdong Chi\*, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen. *Findings of ACL 2026*
 
 **[2] Pi-SQL: Enhancing Text-to-SQL with Fine-Grained Guidance from Pivot Programming Languages**
 Yongdong Chi\*, **Hanqing Wang**\*, Yun Chen, Yan Yang, Jian Yang, Zonghan Yang, Xiao Yan, Guanhua Chen. *Findings of EMNLP 2025*
