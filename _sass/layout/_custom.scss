@@ -262,14 +262,15 @@
 }
 
 .news-date {
-  font-family: "JetBrains Mono", monospace;
-  font-weight: 500;
-  font-size: 0.72rem;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.82rem;
   color: var(--global-text-color-light);
-  min-width: 68px;
+  min-width: 70px;
   flex-shrink: 0;
   padding-top: 2px;
-  letter-spacing: 0.03em;
+  font-variant-numeric: oldstyle-nums;
 }
 
 .news-text {
@@ -838,20 +839,18 @@
   }
 }
 
-/* Method-name chip beside title (e.g., "SAGE") */
+/* Method-name parenthetical beside title (e.g., (SAGE)) */
 .pub-method {
-  display: inline-block;
-  margin-left: 0.45rem;
-  padding: 0.08rem 0.5rem;
-  border-radius: 3px;
-  background: rgba(192, 120, 92, 0.12);
+  margin-left: 0.35rem;
   color: var(--global-link-color);
-  font-family: "Inter", -apple-system, sans-serif;
-  font-size: 0.7rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  vertical-align: 0.18em;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+
+  &::before { content: "("; }
+  &::after  { content: ")"; }
 }
 
 /* Teaser image — left of pub-content. Native aspect (no letterbox);
@@ -969,6 +968,14 @@
     grid-template-columns: 1fr;
   }
 
+  .honor-item {
+    flex-wrap: wrap;
+  }
+
+  .honor-meta {
+    margin-left: auto;
+  }
+
   .pub-entry {
     flex-direction: column;
     align-items: stretch;
@@ -981,4 +988,130 @@
     margin-right: 0;
     margin-bottom: 0.6rem;
   }
+}
+
+/* ==========================================================================
+   PHASE 4B — HONORS LIST · RESEARCH NARRATIVE · NEWS ICONS · WORKING PAPERS
+   ========================================================================== */
+
+/* Honors as line list (replaces .honors-grid + .honor-card) */
+.honors-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.honor-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px dotted var(--global-border-color);
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.honor-icon {
+  color: var(--global-link-color);
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  padding-top: 0.15em;
+}
+
+.honor-main {
+  flex: 1;
+  color: var(--global-text-color);
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.honor-meta {
+  font-style: italic;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  font-variant-numeric: oldstyle-nums;
+  flex-shrink: 0;
+}
+
+/* Research narrative paragraph (replaces .research-interests + .research-card) */
+.research-narrative {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--global-text-color);
+  margin: 0;
+
+  em {
+    font-style: italic;
+  }
+}
+
+.method-name {
+  color: var(--global-link-color);
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* News icon inline between date and text */
+.news-icon {
+  color: var(--global-link-color);
+  font-size: 0.78rem;
+  flex-shrink: 0;
+  padding-top: 0.35em;
+  width: 14px;
+  text-align: center;
+}
+
+/* Working papers section on /publications/ */
+.working-papers {
+  margin-bottom: 2rem;
+}
+
+.working-papers-intro {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.8rem;
+}
+
+.working-paper {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding: 0.45rem 0;
+  color: var(--global-text-color);
+  border-bottom: 1px dotted var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.wp-stage {
+  font-variant: small-caps;
+  font-weight: 600;
+  color: var(--global-link-color);
+  letter-spacing: 0.06em;
+}
+
+.wp-sep {
+  color: var(--global-text-color-light);
+}
+
+.wp-desc {
+  color: var(--global-text-color);
+}
+
+.wp-meta {
+  font-style: italic;
+  color: var(--global-text-color-light);
+  font-variant-numeric: oldstyle-nums;
 }

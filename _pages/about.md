@@ -33,56 +33,39 @@ redirect_from:
 
 <div class="home-section">
   <div class="section-label">Selected Honors</div>
-  <div class="honors-grid">
-    <div class="honor-card">
-      <i class="fas fa-star"></i>
-      <h4>Academic Star</h4>
-      <p>5 PhD students per year university-wide · SUFE, Dec 2025</p>
-    </div>
-    <div class="honor-card">
-      <i class="fas fa-medal"></i>
-      <h4>National PhD Scholarship</h4>
-      <p>Top ~3% nationwide · China MoE, Sep 2025</p>
-    </div>
-  </div>
+  <ul class="honors-list">
+    <li class="honor-item">
+      <i class="fas fa-star honor-icon"></i>
+      <span class="honor-main"><b>Academic Star</b> — 5 PhD students selected per year university-wide</span>
+      <span class="honor-meta">SUFE · Dec 2025</span>
+    </li>
+    <li class="honor-item">
+      <i class="fas fa-medal honor-icon"></i>
+      <span class="honor-main"><b>National PhD Scholarship</b> — top ~3% of PhD students nationwide</span>
+      <span class="honor-meta">China MoE · Sep 2025</span>
+    </li>
+  </ul>
 </div>
 
 <div class="home-section">
   <div class="section-label">Research Interests</div>
-  <div class="research-interests">
-    <div class="research-card">
-      <i class="fas fa-brain"></i>
-      <h4>Large Language Models</h4>
-    </div>
-    <div class="research-card">
-      <i class="fas fa-sliders-h"></i>
-      <h4>Parameter-Efficient Fine-Tuning</h4>
-    </div>
-    <div class="research-card">
-      <i class="fas fa-robot"></i>
-      <h4>LLM Agents</h4>
-    </div>
-    <div class="research-card">
-      <i class="fas fa-database"></i>
-      <h4>Text-to-SQL</h4>
-    </div>
-  </div>
+  <p class="research-narrative">My work sits at the intersection of <em>efficient adaptation</em> and <em>capability transfer</em>. I built parameter-efficient fine-tuning methods (<span class="method-name">LoRA-Flow</span>, <span class="method-name">MiLoRA</span>, <span class="method-name">MALoRA</span>), training-free delta compression (<span class="method-name">Delta-CoMe</span>), and most recently latent-vulnerability discovery (<span class="method-name">SAGE</span>) plus Python-pivot SQL generation (<span class="method-name">Pi-SQL</span>) for Text-to-SQL. Increasingly I'm asking: <em>can the same lens — modular, efficient capability — apply to agent skill design?</em></p>
 </div>
 
 <div class="home-section home-card">
     <div class="section-label">News</div>
     <div class="news-section">
       <ul class="news-list">
-        <li><span class="news-date">Apr 2026</span><span class="news-text">One paper accepted at <b>Findings of ACL 2026</b>!</span></li>
-        <li><span class="news-date">Nov 2025</span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2025</b>!</span></li>
-        <li><span class="news-date">Mar 2025</span><span class="news-text">One paper accepted at <b>NAACL 2025</b>!</span></li>
-        <li><span class="news-date">Jan 2025</span><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
-        <li><span class="news-date">Sep 2024</span><span class="news-text">Awarded <b>First-Class Academic Scholarship</b> at SUFE.</span></li>
-        <li><span class="news-date">Sep 2024</span><span class="news-text">One paper accepted at <b>NeurIPS 2024</b>!</span></li>
-        <li><span class="news-date">May 2024</span><span class="news-text">One paper accepted at <b>ACL 2024</b>!</span></li>
-        <li><span class="news-date">Sep 2023</span><span class="news-text">Started research internship at THUNLP & QY Lab.</span></li>
-        <li><span class="news-date">Oct 2023</span><span class="news-text">One paper accepted at <b>Findings of EMNLP 2023</b>!</span></li>
-        <li><span class="news-date">Jun 2022</span><span class="news-text">Obtained bachelor's degree from SUFE.</span></li>
+        <li><span class="news-date">Apr 2026</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of ACL 2026!</span></li>
+        <li><span class="news-date">Nov 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of EMNLP 2025!</span></li>
+        <li><span class="news-date">Mar 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at NAACL 2025!</span></li>
+        <li><span class="news-date">Jan 2025</span><i class="news-icon fas fa-briefcase"></i><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
+        <li><span class="news-date">Sep 2024</span><i class="news-icon fas fa-medal"></i><span class="news-text">Awarded First-Class Academic Scholarship at SUFE.</span></li>
+        <li><span class="news-date">Sep 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at NeurIPS 2024!</span></li>
+        <li><span class="news-date">May 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at ACL 2024!</span></li>
+        <li><span class="news-date">Sep 2023</span><i class="news-icon fas fa-briefcase"></i><span class="news-text">Started research internship at THUNLP & QY Lab.</span></li>
+        <li><span class="news-date">Oct 2023</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of EMNLP 2023!</span></li>
+        <li><span class="news-date">Jun 2022</span><i class="news-icon fas fa-graduation-cap"></i><span class="news-text">Obtained bachelor's degree from SUFE.</span></li>
       </ul>
     </div>
   </div>
