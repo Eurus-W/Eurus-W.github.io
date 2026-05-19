@@ -168,7 +168,7 @@ redirect_from:
     </div>
   </div>
 
-<div class="home-section">
+<div class="home-section home-card">
   <div class="section-label">Selected Honors</div>
   <ul class="honors-list">
     <li class="honor-item">
