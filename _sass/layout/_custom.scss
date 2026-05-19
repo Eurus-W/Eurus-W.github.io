@@ -6,6 +6,21 @@
    Typography Enhancements
    ========================================================================== */
 
+/* Global body-text typography — Georgia for substantive content
+   (overridden by class-specific rules for badges, mono ribbons, code) */
+.page__content,
+.archive,
+.page__inner-wrap,
+.wordwrap,
+.archive__item-excerpt {
+  font-family: Georgia, "Noto Serif SC", serif;
+}
+
+/* Mono fallback for code-like content */
+code, pre, kbd, samp {
+  font-family: "JetBrains Mono", Menlo, monospace;
+}
+
 .page__content h2,
 .archive__item h2 {
   font-family: Georgia, "Noto Serif SC", serif;
