@@ -1257,6 +1257,28 @@
   margin: 0.25rem 0;
 
   p {
-    margin: 0.1rem 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    display: inline;
+  }
+}
+
+/* Bare <p> inside archive items (e.g., "Published in <i>venue</i>, year" and "Download Paper") */
+.archive__item > p:not(.archive__item-excerpt):not(.page__meta) {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+  margin: 0.25rem 0;
+
+  a {
+    color: var(--global-link-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

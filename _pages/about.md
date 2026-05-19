@@ -63,7 +63,7 @@ redirect_from:
           <span class="pub-ribbon pub-ribbon-acl">ACL 2026</span>
         </div>
         <div class="pub-content">
-          <div class="pub-title"><a href="/publication/2026_sql_vulnerabilities">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</a> <span class="pub-method">SAGE</span></div>
+          <div class="pub-title"><a href="/publication/2026_sql_vulnerabilities">Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL</a></div>
           <span class="pub-authors"><span class="pub-author-self">Hanqing Wang</span>*, Yongdong Chi*, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen</span>
           <div class="pub-meta">
             <span class="pub-venue-info">ACL 2026 Findings · CCF-A</span>
