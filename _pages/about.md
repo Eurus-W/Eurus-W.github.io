@@ -32,7 +32,7 @@ redirect_from:
 
 <div class="home-section">
   <div class="section-label">Research Interests</div>
-  <p class="research-narrative">My research is unified by one question: <em>how do we transfer capabilities into and across large language models efficiently?</em> I built parameter-efficient fine-tuning methods (<span class="method-name">LoRA-Flow</span>, <span class="method-name">MiLoRA</span>, <span class="method-name">MALoRA</span>), training-free delta compression (<span class="method-name">Delta-CoMe</span>), and most recently latent-vulnerability discovery (<span class="method-name">SAGE</span>) plus Python-pivot SQL generation (<span class="method-name">Pi-SQL</span>) for Text-to-SQL. Increasingly I'm asking whether the same lens — modular, efficient capability — applies to <em>agent skill design</em>.</p>
+  <p class="research-narrative">My research is unified by one question: <em>how do we transfer capabilities into and across large language models efficiently?</em> I started with zero-shot style transfer via lightweight adapters (<span class="method-name">StyleBART</span>), then built parameter-efficient fine-tuning methods (<span class="method-name">LoRA-Flow</span>, <span class="method-name">MiLoRA</span>) and training-free delta compression (<span class="method-name">Delta-CoMe</span>), and most recently latent-vulnerability discovery (<span class="method-name">SAGE</span>) plus Python-pivot SQL generation (<span class="method-name">Pi-SQL</span>) for Text-to-SQL. Increasingly I'm asking whether the same lens — modular, efficient capability — applies to <em>agent skill design</em>.</p>
 </div>
 
 <div class="home-section home-card">
@@ -168,18 +168,3 @@ redirect_from:
     </div>
   </div>
 
-<div class="home-section home-card">
-  <div class="section-label">Selected Honors</div>
-  <ul class="honors-list">
-    <li class="honor-item">
-      <i class="fas fa-star honor-icon"></i>
-      <span class="honor-main"><b>Academic Star</b> — 5 PhD students selected per year university-wide</span>
-      <span class="honor-meta">SUFE · Dec 2025</span>
-    </li>
-    <li class="honor-item">
-      <i class="fas fa-medal honor-icon"></i>
-      <span class="honor-main"><b>National PhD Scholarship</b> — top ~3% of PhD students nationwide</span>
-      <span class="honor-meta">China MoE · Sep 2025</span>
-    </li>
-  </ul>
-</div>
