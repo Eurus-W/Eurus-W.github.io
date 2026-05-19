@@ -12,6 +12,10 @@ docs/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
+# Ignore bundler local config and vendored gems (local install)
+.bundle/
+vendor/
+
 # Ingore files created by npm
 node_modules
 package-lock.json

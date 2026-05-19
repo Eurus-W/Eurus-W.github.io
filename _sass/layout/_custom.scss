@@ -70,11 +70,11 @@
   flex-shrink: 0;
 
   img {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--global-border-color);
+    border: 4px solid var(--global-border-color);
   }
 }
 
@@ -121,11 +121,12 @@
 
 .hero-links {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
+  margin-top: 0.4rem;
 
   a {
     color: var(--global-text-color-light);
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     transition: color 0.25s ease;
     text-decoration: none !important;
 
@@ -1114,4 +1115,133 @@
   font-style: italic;
   color: var(--global-text-color-light);
   font-variant-numeric: oldstyle-nums;
+}
+
+/* ==========================================================================
+   PHASE 4C — ARCHIVE PAGES (PUBLICATIONS, TALKS) RESTYLE
+   ========================================================================== */
+
+.archive {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.archive .page__title {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  color: var(--global-text-color);
+
+  &::after {
+    content: '';
+    display: block;
+    margin-top: 0.6rem;
+    width: 60px;
+    height: 2px;
+    background: var(--global-link-color);
+    border-radius: 2px;
+  }
+}
+
+/* Category h2 (Working Papers, year groups, etc.) */
+.archive > h2 {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-variant: small-caps;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.4rem;
+  color: var(--global-text-color-light);
+  border-bottom: none;
+  padding-bottom: 0;
+
+  &::before {
+    content: "§\00a0";
+    color: var(--global-link-color);
+    font-variant: normal;
+  }
+
+  &::after {
+    display: none !important;
+  }
+}
+
+.archive > hr {
+  border: none;
+  border-top: 1px solid var(--global-border-color);
+  margin: 0.3rem 0 1.2rem 0;
+}
+
+.archive__item {
+  padding: 0.9rem 0;
+  border-bottom: 1px dotted var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.archive .archive__item-title {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  margin: 0 0 0.35rem 0;
+  letter-spacing: -0.005em;
+  border-bottom: none;
+  padding-bottom: 0;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none !important;
+    border-bottom: none !important;
+
+    &:hover {
+      color: var(--global-link-color);
+      text-decoration: none !important;
+    }
+  }
+
+  .fa-link {
+    display: none;
+  }
+
+  &::after {
+    display: none !important;
+  }
+}
+
+.archive__item .page__meta,
+.archive .page__date {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  font-variant-numeric: oldstyle-nums;
+  margin: 0.2rem 0;
+
+  i, .fa-clock, .fa-calendar {
+    display: none;
+  }
+
+  strong {
+    font-weight: normal;
+  }
+}
+
+.archive__item .archive__item-excerpt {
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 1rem;
+  color: var(--global-text-color);
+  line-height: 1.55;
+  margin: 0.25rem 0;
+
+  p {
+    margin: 0.1rem 0;
+  }
 }

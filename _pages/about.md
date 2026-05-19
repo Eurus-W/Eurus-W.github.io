@@ -16,7 +16,6 @@ redirect_from:
     <div class="hero-info">
       <h1 class="hero-name">Hanqing Wang</h1>
       <p class="hero-title">Ph.D. Student at Shanghai University of Finance and Economics (SUFE)</p>
-      <p class="hero-bio">My research is unified by one question: <b>how do we transfer capabilities into and across large language models efficiently?</b> I work on parameter-efficient adaptation, model compression, and cross-task / cross-modal knowledge migration — and increasingly on how the same lens applies to agent skill design.</p>
       <p class="hero-bio">I am a 4th-year Ph.D. student at SUFE advised by Prof. <a href="http://yunc.me">Yun Chen</a>, and previously a research intern at THUNLP &amp; QY Lab supervised by <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">Shuo Wang</a>. My work has appeared at ACL, EMNLP, NAACL, and NeurIPS. I was recently selected as <b>SUFE Academic Star</b> (5 PhD students per year university-wide).</p>
       <div class="hero-links">
         <a href="mailto:whq@163.sufe.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
@@ -32,39 +31,23 @@ redirect_from:
 </div>
 
 <div class="home-section">
-  <div class="section-label">Selected Honors</div>
-  <ul class="honors-list">
-    <li class="honor-item">
-      <i class="fas fa-star honor-icon"></i>
-      <span class="honor-main"><b>Academic Star</b> — 5 PhD students selected per year university-wide</span>
-      <span class="honor-meta">SUFE · Dec 2025</span>
-    </li>
-    <li class="honor-item">
-      <i class="fas fa-medal honor-icon"></i>
-      <span class="honor-main"><b>National PhD Scholarship</b> — top ~3% of PhD students nationwide</span>
-      <span class="honor-meta">China MoE · Sep 2025</span>
-    </li>
-  </ul>
-</div>
-
-<div class="home-section">
   <div class="section-label">Research Interests</div>
-  <p class="research-narrative">My work sits at the intersection of <em>efficient adaptation</em> and <em>capability transfer</em>. I built parameter-efficient fine-tuning methods (<span class="method-name">LoRA-Flow</span>, <span class="method-name">MiLoRA</span>, <span class="method-name">MALoRA</span>), training-free delta compression (<span class="method-name">Delta-CoMe</span>), and most recently latent-vulnerability discovery (<span class="method-name">SAGE</span>) plus Python-pivot SQL generation (<span class="method-name">Pi-SQL</span>) for Text-to-SQL. Increasingly I'm asking: <em>can the same lens — modular, efficient capability — apply to agent skill design?</em></p>
+  <p class="research-narrative">My research is unified by one question: <em>how do we transfer capabilities into and across large language models efficiently?</em> I built parameter-efficient fine-tuning methods (<span class="method-name">LoRA-Flow</span>, <span class="method-name">MiLoRA</span>, <span class="method-name">MALoRA</span>), training-free delta compression (<span class="method-name">Delta-CoMe</span>), and most recently latent-vulnerability discovery (<span class="method-name">SAGE</span>) plus Python-pivot SQL generation (<span class="method-name">Pi-SQL</span>) for Text-to-SQL. Increasingly I'm asking whether the same lens — modular, efficient capability — applies to <em>agent skill design</em>.</p>
 </div>
 
 <div class="home-section home-card">
     <div class="section-label">News</div>
     <div class="news-section">
       <ul class="news-list">
-        <li><span class="news-date">Apr 2026</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of ACL 2026!</span></li>
-        <li><span class="news-date">Nov 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of EMNLP 2025!</span></li>
-        <li><span class="news-date">Mar 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at NAACL 2025!</span></li>
+        <li><span class="news-date">Apr 2026</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by Findings of ACL 2026!</span></li>
+        <li><span class="news-date">Nov 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by Findings of EMNLP 2025!</span></li>
+        <li><span class="news-date">Mar 2025</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by NAACL 2025!</span></li>
         <li><span class="news-date">Jan 2025</span><i class="news-icon fas fa-briefcase"></i><span class="news-text">Completed research internship at THUNLP & QY Lab.</span></li>
         <li><span class="news-date">Sep 2024</span><i class="news-icon fas fa-medal"></i><span class="news-text">Awarded First-Class Academic Scholarship at SUFE.</span></li>
-        <li><span class="news-date">Sep 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at NeurIPS 2024!</span></li>
-        <li><span class="news-date">May 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at ACL 2024!</span></li>
+        <li><span class="news-date">Sep 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by NeurIPS 2024!</span></li>
+        <li><span class="news-date">May 2024</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by ACL 2024!</span></li>
         <li><span class="news-date">Sep 2023</span><i class="news-icon fas fa-briefcase"></i><span class="news-text">Started research internship at THUNLP & QY Lab.</span></li>
-        <li><span class="news-date">Oct 2023</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted at Findings of EMNLP 2023!</span></li>
+        <li><span class="news-date">Oct 2023</span><i class="news-icon fas fa-file-alt"></i><span class="news-text">One paper accepted by Findings of EMNLP 2023!</span></li>
         <li><span class="news-date">Jun 2022</span><i class="news-icon fas fa-graduation-cap"></i><span class="news-text">Obtained bachelor's degree from SUFE.</span></li>
       </ul>
     </div>
@@ -184,3 +167,19 @@ redirect_from:
 
     </div>
   </div>
+
+<div class="home-section">
+  <div class="section-label">Selected Honors</div>
+  <ul class="honors-list">
+    <li class="honor-item">
+      <i class="fas fa-star honor-icon"></i>
+      <span class="honor-main"><b>Academic Star</b> — 5 PhD students selected per year university-wide</span>
+      <span class="honor-meta">SUFE · Dec 2025</span>
+    </li>
+    <li class="honor-item">
+      <i class="fas fa-medal honor-icon"></i>
+      <span class="honor-main"><b>National PhD Scholarship</b> — top ~3% of PhD students nationwide</span>
+      <span class="honor-meta">China MoE · Sep 2025</span>
+    </li>
+  </ul>
+</div>
