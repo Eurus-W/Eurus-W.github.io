@@ -1264,7 +1264,7 @@
   }
 }
 
-/* Bare <p> inside archive items (e.g., "Published in <i>venue</i>, year" and "Download Paper") */
+/* Bare <p> inside archive items (e.g., "Download Paper") */
 .archive__item > p:not(.archive__item-excerpt):not(.page__meta) {
   font-family: Georgia, "Noto Serif SC", serif;
   font-size: 0.92rem;
@@ -1280,5 +1280,28 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+/* Publication venue + year line — venue left, year right (matches Working Papers wp-meta style) */
+.archive__item .pub-venue-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 0.92rem;
+  color: var(--global-text-color-light);
+  margin: 0.3rem 0 0.25rem 0;
+  gap: 1rem;
+
+  .pub-venue i {
+    font-style: italic;
+  }
+
+  .pub-year {
+    font-style: italic;
+    font-variant-numeric: oldstyle-nums;
+    flex-shrink: 0;
+    font-size: 0.85rem;
   }
 }

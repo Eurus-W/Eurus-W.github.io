@@ -1,22 +1,10 @@
 ---
-title: "TA experience"
+title: "TA Experience"
 collection: teaching
-type: "Undergraduate course"
+type: "Machine Learning (Undergraduate)"
 permalink: /teaching/machine-learning
 venue: "SUFE, SIME"
 date: 2024-09-02
+dates: "2022 – 2024"
 location: "Shanghai, China"
 ---
-
-Served as a teaching assistant for the undergraduate course 'Machine Learning' from 2022 to 2024.
-
-<!-- This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-====== -->
