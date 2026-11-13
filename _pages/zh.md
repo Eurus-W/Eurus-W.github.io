@@ -1,6 +1,6 @@
 ---
 permalink: /zh/
-title: "王涵青 · Hanqing Wang"
+title: "汪汉卿 · Hanqing Wang"
 layout: home
 author_profile: false
 published: false
@@ -9,13 +9,13 @@ published: false
 <div class="hero-section">
   <div class="hero-top">
     <div class="hero-avatar">
-      <img src="/images/whq.jpg" alt="王涵青 Hanqing Wang" />
+      <img src="/images/whq.jpg" alt="汪汉卿 Hanqing Wang" />
     </div>
     <div class="hero-info">
-      <h1 class="hero-name">王涵青 · Hanqing Wang</h1>
-      <p class="hero-title">上海财经大学 博士四年级</p>
-      <p class="hero-bio">我的研究围绕一个问题：<b>如何高效地把能力注入并跨大语言模型迁移？</b>目前的工作集中在参数高效微调（PEFT）、模型压缩、跨任务 / 跨模态的知识迁移——也越来越关注同样的视角如何延伸到 Agent 技能设计上。</p>
-      <p class="hero-bio">我是上海财经大学四年级博士生，导师为 <a href="http://yunc.me">陈芸 教授</a>；此前曾在清华 THUNLP &amp; QY Lab 跟随 <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">王硕</a> 老师做研究实习。论文发表于 ACL、EMNLP、NAACL、NeurIPS。近期入选 <b>上财学术之星</b>（全校每年 5 名博士生）。</p>
+      <h1 class="hero-name">汪汉卿 · Hanqing Wang</h1>
+      <p class="hero-title">上海财经大学 博士候选人</p>
+      <p class="hero-bio">我的研究围绕一个核心问题：<b>基础模型如何高效地适配、组合并跨模态/跨物理环境迁移能力？</b>主要研究方向包括具身智能（VLA）、大模型高效适配与大模型智能体。</p>
+      <p class="hero-bio">我是上海财经大学五年级博士生，导师为 <a href="https://yunc.me">陈云 副教授</a>；曾在京东科技担任算法实习生（具身智能与 VLA 方向），并在清华 THUNLP &amp; 启元实验室跟随 <a href="https://scholar.google.com/citations?user=5vm5yAMAAAAJ&hl=en">王硕</a> 老师做研究实习。论文发表于 NeurIPS、ACL、EMNLP、NAACL。曾获<b>上财学术之星</b>（全校每年 5 名）与<b>博士研究生国家奖学金</b>。</p>
       <div class="hero-links">
         <a href="mailto:whq@163.sufe.edu.cn" title="邮箱"><i class="fas fa-envelope"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=1sFj7RcAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>

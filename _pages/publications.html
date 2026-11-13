@@ -6,15 +6,27 @@ author_profile: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. <em>(* indicates equal contribution)</em></div>
 {% endif %}
 
 {% include base_path %}
 
-<h2>Working Papers</h2><hr />
+<h2>Preprints &amp; Manuscripts Under Review</h2><hr />
 
 <div class="working-papers">
-  <p class="working-papers-intro"><em>Manuscripts in submission or in preparation.</em></p>
+
+  <div class="working-paper">
+    <div class="wp-header">
+      <span class="wp-stage">arXiv Preprint · HF Daily Paper #2, Monthly Paper #4</span>
+      <span class="wp-meta">2026</span>
+    </div>
+    <div class="wp-title"><a href="/publication/2026_pdrvla">PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations</a></div>
+    <div class="wp-authors"><span class="pub-author-self">Hanqing Wang</span>*, Zhaotian Cai*, Ruichuan An*, Bohan Zeng*, Tao Zhang*, Yilin Chen*, Xu Jiang, Kaiquan Chen, Chongyang Wu, Haoran Li, Fan Yang, Mingan Lin, Wentao Zhang, Zenan Zhou, Youzheng Wu, Xiaodong He</div>
+    <div class="wp-links">
+      <a href="https://arxiv.org/abs/2610.37381">[Paper]</a>
+      <a href="https://huggingface.co/papers/2610.37381">[HF Paper]</a>
+    </div>
+  </div>
 
   <div class="working-paper">
     <div class="wp-header">
@@ -27,11 +39,13 @@ author_profile: false
 
   <div class="working-paper">
     <div class="wp-header">
-      <span class="wp-stage">In Preparation</span>
+      <span class="wp-stage">Under Review</span>
       <span class="wp-meta">2026</span>
     </div>
-    <div class="wp-title">Transferring Compressed Reasoning from Weak LLMs to Strong Reasoning Models</div>
+    <div class="wp-title">Perdura: Stateful Code Execution Harness for Long-Horizon Agents</div>
+    <div class="wp-authors">Haoyu Wang*, Zhen Wang*, Zhiyu Yang, <span class="pub-author-self">Hanqing Wang</span>, Kaichen Huang, Shuo Wang, Bo An</div>
   </div>
+
 </div>
 
 <!-- New style rendering if publication categories are defined -->

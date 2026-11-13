@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Hanqing Wang"
 title_separator          : "-"
 name                     : &name "Hanqing Wang"
-description              : &description "Hanqing Wang — PhD candidate at Shanghai University of Finance and Economics (SUFE), researching large language models, parameter-efficient fine-tuning, LLM agents, and Text-to-SQL. Published at ACL, EMNLP, NAACL, NeurIPS. Recipient of SUFE Academic Star (highest university-wide honor, 5/year)."
+description              : &description "Hanqing Wang — Final-year Ph.D. candidate at Shanghai University of Finance and Economics (SUFE), researching Vision-Language-Action (VLA) models, efficient LLM adaptation, multimodal reasoning, and LLM agents. Published at NeurIPS, ACL, EMNLP, and NAACL. Recipient of SUFE Academic Star and National Ph.D. Scholarship."
 url                      : https://eurus-w.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Eurus-W/Eurus-W.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "whq.jpg"
   name             : "Hanqing Wang"
   pronouns         : # example: "she/her"  
-  bio              : "A fourth-year Ph.D. student at Shanghai University of Finance and Economics (SUFE)"
+  bio              : "Final-year Ph.D. candidate at Shanghai University of Finance and Economics (SUFE)"
   location         : "Shanghai, China"
   employer         : "SUFE"
   uri              : # URL
@@ -82,7 +82,7 @@ publication_category:
   manuscripts:
     title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Peer-Reviewed Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

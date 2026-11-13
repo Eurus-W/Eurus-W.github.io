@@ -8,7 +8,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Honors"
+  - title: "Honors & Service"
     url: /honors/
 
   - title: "Talks"
@@ -18,7 +18,7 @@ main:
     url: /teaching/
 
   - title: "CV"
-    url: /files/cv.pdf
+    url: /files/Hanqing_Wang_CV.pdf
 
   # - title: "Guide"
   #   url: /markdown/

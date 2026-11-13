@@ -4,9 +4,9 @@ collection: publications
 category: conferences
 permalink: /publication/2025_malora
 excerpt: 'Author: Xujia Wang, Haiyan Zhao, Shuo Wang, <b>Hanqing Wang</b>, Zhiyuan Liu'
-date: 2024-10-15
+date: 2025-04-29
 venue: 'Findings of NAACL 2025'
-paperurl: 'https://eurus-w.github.io/files/2410.22782v1.pdf'
+paperurl: 'https://aclanthology.org/2025.findings-naacl.312.pdf'
 ---
 
 ## TL;DR

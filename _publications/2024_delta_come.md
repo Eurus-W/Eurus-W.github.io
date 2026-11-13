@@ -3,7 +3,7 @@ title: "Delta-CoMe: Training-Free Delta-Compression with Mixed-Precision for Lar
 collection: publications
 category: conferences
 permalink: /publication/2024_delta_come
-excerpt: 'Author: Bowen Ping, Shuo Wang, <b>Hanqing Wang</b>, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun'
+excerpt: 'Author: Bowen Ping<sup>*</sup>, Shuo Wang<sup>*</sup>, <b>Hanqing Wang</b>, Xu Han, Yuzhuang Xu, Yukun Yan, Yun Chen, Baobao Chang, Zhiyuan Liu, Maosong Sun'
 date: 2024-05-22
 venue: 'NeurIPS 2024'
 paperurl: 'https://eurus-w.github.io/files/18992_Delta_CoMe_Training_Free.pdf'

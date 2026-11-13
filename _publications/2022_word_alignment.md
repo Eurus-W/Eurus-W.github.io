@@ -3,7 +3,7 @@ title: "Multilingual Sentence Transformer as A Multilingual Word Aligner"
 collection: publications
 category: conferences
 permalink: /publication/2022_word_alignment
-excerpt: 'Author: Weikang Wang, Guanhua Chen, <b>Hanqing Wang</b>, Yue Han, Yun Chen'
+excerpt: 'Author: Weikang Wang<sup>*</sup>, Guanhua Chen<sup>*</sup>, <b>Hanqing Wang</b>, Yue Han, Yun Chen'
 date: 2022-06-30
 venue: 'Findings of EMNLP 2022, short'
 paperurl: 'https://eurus-w.github.io/files/2022.findings-emnlp.215.pdf'

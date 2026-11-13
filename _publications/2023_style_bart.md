@@ -20,6 +20,7 @@ Stylistic headline generation is the task to generate a headline that not only s
 ## Links
 
 - [Paper](https://aclanthology.org/2023.findings-emnlp.697/)
+- [Code](https://github.com/sufenlp/StyleBART)
 
 ## BibTeX
 

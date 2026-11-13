@@ -6,6 +6,7 @@ permalink: /publication/2026_sql_vulnerabilities
 excerpt: 'Author: <b>Hanqing Wang</b><sup>*</sup>, Yongdong Chi<sup>*</sup>, Jian Yang, Lei Yang, Jiehui Zhao, Yun Chen, Guanhua Chen'
 date: 2026-04-07
 venue: 'Findings of ACL 2026'
+paperurl: 'https://aclanthology.org/2026.findings-acl.842.pdf'
 ---
 
 *Method: **SAGE** — Systematic Automated Guided Exploration.*
@@ -20,7 +21,8 @@ While Large Language Models (LLMs) have achieved remarkable success in Text-to-S
 
 ## Links
 
-*Camera-ready link will be added once the ACL Anthology posts the Findings volume.*
+- [Paper](https://aclanthology.org/2026.findings-acl.842/)
+- [Code](https://github.com/sustech-nlp/SAGE)
 
 ## BibTeX
 
@@ -28,11 +30,13 @@ While Large Language Models (LLMs) have achieved remarkable success in Text-to-S
 <summary>Click to expand</summary>
 
 ```bibtex
-@inproceedings{wang2026beyondstatic,
-  title     = {Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-SQL},
+@inproceedings{wang-etal-2026-beyond-static,
+  title     = {Beyond Static Rules: Automated Discovery of Latent Vulnerabilities in Text-to-{SQL}},
   author    = {Wang, Hanqing and Chi, Yongdong and Yang, Jian and Yang, Lei and Zhao, Jiehui and Chen, Yun and Chen, Guanhua},
   booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
-  year      = {2026}
+  year      = {2026},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2026.findings-acl.842/}
 }
 ```
 
